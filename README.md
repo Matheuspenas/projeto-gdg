@@ -22,7 +22,16 @@ Descrição curta do evento.
 - `Funcionalidade 12`:Efeitos interativos, como animações simples e hover em botões e links.
 
 <h1>Publico Alvo</h1>
-`Programadores` 
-`universitários` 
-`interessados` 
-`investidores`
+
+- `Programadores` 
+- `universitários` 
+- `interessados` 
+- `investidores`
+
+<h1>Tecnologias utilizadas</h1>
+
+- `Visual Studio Code` 
+- `Canva` 
+- `Figma` 
+- `Trello`
+- `Git/GitHub`
