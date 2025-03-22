@@ -42,9 +42,17 @@ A ideia das nossas cores, serão baseadas em uma união de cores entre as da GdG
 
 <h1>Wireframes e Esboços</h1>
 
-![Página Inicial, onde estará as informações sobre, local, horario, data, colaboradores e o botão de inscrição.](<Página Inicial.jpg>)
-![Página de Palestrantes, onde as informações sobre os palestrantes como currículo, cargos, etc. ](<Página de Palestrantes .jpg>)
-![Página de Inscrição, onde será feita a inscrição do evento para receber os certificados, etc.](<Página de Inscrição.jpg>)
+<p>Página de Palestrantes, onde as informações sobre os palestrantes como currículo, cargos, etc.</p>
+
+![alt text](<Página Inicial.jpg>)
+
+<p>Página de Inscrição, onde será feita a inscrição do evento para receber os certificados, etc. </p>
+
+![alt text ](<Página de Palestrantes .jpg>)
+
+<p>Página de Inscrição, onde será feita a inscrição do evento para receber os certificados, etc. </p>
+
+![alt text](<Página de Inscrição.jpg>)
 
 <h1>Mapa Mental</h1>
 
