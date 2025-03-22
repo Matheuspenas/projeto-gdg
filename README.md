@@ -1,4 +1,4 @@
-# projeto-gdg
+# Projeto-GDG
 
 <h1>Descrição do Projeto</h1>
 Este progeto tem como obljetivo a divulgação de um evento tecnológioco GDG por meio de uma pagina web.
@@ -12,7 +12,7 @@ A pagina ira conter a data, hora e local do evento juntamente com uma seção co
 - `Funcionalidade 2`:Botão de chamada para ação, como "Inscreva-se agora".
 - `Funcionalidade 3`:Links para outras partes do site.
 - `Funcionalidade 4`:Atividades do evento com horários e descrições.
-- `Funcionalidade 5`:Cards com palestrantes
+- `Funcionalidade 5`:Cards com palestrantes.
 - `Funcionalidade 6`:Mapa integrado com o local do evento e endereço.
 - `Funcionalidade 7`:O layout será adaptável para desktop, tablet e mobile, garantindo boa experiência em qualquer dispositivo.
 - `Funcionalidade 8`:Menu hamburguer para dispositivos móveis, facilitando a navegação.
@@ -24,9 +24,9 @@ A pagina ira conter a data, hora e local do evento juntamente com uma seção co
 <h1>Publico Alvo</h1>
 
 - `Programadores`
-- `universitários`
-- `interessados`
-- `investidores`
+- `Universitários`
+- `Interessados`
+- `Investidores`
 
 <h1>Tecnologias utilizadas</h1>
 
@@ -38,7 +38,7 @@ A pagina ira conter a data, hora e local do evento juntamente com uma seção co
 
 <h1>Justificativa do Design</h1>
 
-A ideia das nossas cores, serão baseadas em uma união entre as cores da `GdG` e `Unicesumar`, como uma forma de destaque e junção entre as duas partes.
+A ideia das nossas cores, serão baseadas em uma união entre as cores da `GDG` e `Unicesumar`, como uma forma de destaque e junção entre as duas partes.
 
 <h1>Wireframes e Esboços</h1>
 
