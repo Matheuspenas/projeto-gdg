@@ -38,7 +38,7 @@ A pagina ira conter a data, hora e local do evento juntamente com uma seção co
 
 <h1>Justificativa do Design</h1>
 
-A ideia das nossas cores, serão baseadas em uma união de cores entre as da GdG e Unicesumar, como uma forma de destaque.
+A ideia das nossas cores, serão baseadas em uma união entre as cores da `GdG` e `Unicesumar`, como uma forma de destaque e junção entre as duas partes.
 
 <h1>Wireframes e Esboços</h1>
 
@@ -48,11 +48,12 @@ A ideia das nossas cores, serão baseadas em uma união de cores entre as da GdG
 
 <p>Página de Inscrição, onde será feita a inscrição do evento para receber os certificados, etc. </p>
 
-![alt text ](<Página de Palestrantes .jpg>)
+![alt text](<Página de Palestrantes .jpg>)
 
 <p>Página de Inscrição, onde será feita a inscrição do evento para receber os certificados, etc. </p>
 
 ![alt text](<Página de Inscrição.jpg>)
+
 
 <h1>Mapa Mental</h1>
 
