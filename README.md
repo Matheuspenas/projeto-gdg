@@ -57,8 +57,8 @@ A ideia das nossas cores, serão baseadas em uma união entre as cores da `GdG` 
 
 <h1>Mapa Mental</h1>
 
-![Nosso Mapa Mental ](<Black Doodle Tools for Generating Ideas Mind Map.jpg>)
+![alt text](<Black Doodle Tools for Generating Ideas Mind Map.jpg>)
 
 <h1>Trello</h1>
 
-![Nosso Trello](<Captura de tela 2025-03-21 210138.png>)
+![alt text](<Captura de tela 2025-03-21 210138.png>)
