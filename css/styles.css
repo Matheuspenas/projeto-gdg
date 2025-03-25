@@ -1,0 +1,86 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    padding: 15px;
+    position: relative;
+}
+
+.menu__btn {
+    position: absolute;
+    left: 15px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.evento-logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.evento-nome {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.evento__info {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.inscricao__btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.inscricao-btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f1f1f;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+    }
+    .evento-nome {
+        font-size: 18px;
+    }
+    .evento-info {
+        padding: 15px;
+        margin: 10px;
+    }
+    .inscricao-btn {
+        width: 100%;
+        padding: 12px;
+    }
+}
