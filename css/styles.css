@@ -91,6 +91,14 @@ header {
   border-radius: 10px;
 }
 
+.inscrever {
+  text-align: center;
+  padding: 20px;
+
+  margin: 20px;
+  border-radius: 10px;
+}
+
 .inscricao__btn {
   background-color: #007bff;
   color: white;
@@ -107,6 +115,31 @@ header {
   background-color: #0056b3;
 }
 
+.contatos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.social__btn {
+  width: 50px;
+  height: 50px;
+  background: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.social__btn:hover {
+  background: #0056b3;
+}
+
 footer {
   text-align: center;
   padding: 15px;
@@ -114,7 +147,7 @@ footer {
   margin-top: 20px;
 }
 
-/* Responsividade */
+/* Estilo de responsividade */
 @media (max-width: 768px) {
   header {
     flex-direction: row;
@@ -128,8 +161,20 @@ footer {
     padding: 15px;
     margin: 10px;
   }
+
   .inscricao-btn {
     width: 100%;
     padding: 12px;
+  }
+
+  .contatos {
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .social-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
   }
 }
