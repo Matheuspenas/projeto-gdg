@@ -1,7 +1,7 @@
 body {
   background-color: #121212;
   color: #ffffff;
-  font-family: Arial, sans-serif;
+  font-family: Audiowide;
   margin: 0;
   padding: 0;
 }
@@ -239,7 +239,6 @@ footer a:hover {
   text-decoration: underline;
   color: #0056b3;
 }
-
 
 /* Estilização de responsividade */
 @media (max-width: 768px) {

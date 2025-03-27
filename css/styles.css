@@ -1,7 +1,7 @@
 body {
   background-color: #121212;
   color: #ffffff;
-  font-family: Arial, sans-serif;
+  font-family: Audiowide;
   margin: 0;
   padding: 0;
 }
@@ -159,7 +159,6 @@ header {
 .social__btn:hover {
   background: #0056b3;
   transform: scale(1.3);
-
 }
 
 /* Estilização do Footer  */
