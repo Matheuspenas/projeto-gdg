@@ -112,14 +112,11 @@ header {
 }
 
 .card img {
-
-    width: 150px; 
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto; 
-
-  
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 .card h3 {
@@ -165,13 +162,12 @@ header {
   transform: scale(1.1);
 }
 
-
 .modal-img {
-  width: 150px; 
+  width: 150px;
   height: 150px;
-  border-radius: 50%; 
-  object-fit: cover; 
-  margin: 0 auto 20px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
   display: block;
 }
 
@@ -223,6 +219,28 @@ header {
 .close:hover {
   color: #000;
 }
+
+/* Estilização do Footer  */
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1f1f1f;
+  margin-top: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+
 /* Estilização de responsividade */
 @media (max-width: 768px) {
   header {
