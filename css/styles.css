@@ -15,6 +15,18 @@ header {
   position: relative;
 }
 
+.evento-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.evento-nome {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Estilização do Menu Hamburguer */
+
 .menu__btn {
   position: absolute;
   left: 15px;
@@ -75,15 +87,7 @@ header {
   left: 0;
 }
 
-.evento-logo {
-  height: 40px;
-  margin-right: 10px;
-}
-
-.evento-nome {
-  font-size: 20px;
-  font-weight: bold;
-}
+/* Estilização da seção de informações do evento */
 
 .evento__info {
   text-align: center;
@@ -93,6 +97,8 @@ header {
   border-radius: 10px;
 }
 
+/* Estilização da seção sobre o evento */
+
 .sobre {
   text-align: justify;
   padding: 20px;
@@ -100,6 +106,8 @@ header {
   margin: 20px;
   border-radius: 10px;
 }
+
+/* Estilização do botão inscrever - se */
 
 .inscrever {
   text-align: center;
@@ -125,6 +133,8 @@ header {
   background-color: #0056b3;
 }
 
+/* Estilização da seção contatos */
+
 .contatos {
   display: flex;
   justify-content: center;
@@ -143,12 +153,16 @@ header {
   border-radius: 50%;
   font-size: 20px;
   text-decoration: none;
-  transition: background 0.3s ease;
+  transition: transform 0.2s ease-in-out;
 }
 
 .social__btn:hover {
   background: #0056b3;
+  transform: scale(1.1);
+
 }
+
+/* Estilização do Footer  */
 
 footer {
   text-align: center;
