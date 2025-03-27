@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Evento Tech GDG Londrina</title>
+    <title>Localização</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href="./css/styles.css"
+      href="./css/localizacao.css"
     />
 
     <script
@@ -33,10 +34,12 @@
       <button class="close__btn" onclick="closeMenu()">✖</button>
       <ul>
         <li>
-          <a href="#home"><i class="fa-solid fa-house"></i> Pagina Inicial</a>
+          <a href="./index.html"
+            ><i class="fa-solid fa-house"></i> Pagina Inicial</a
+          >
         </li>
         <li>
-          <a href="#programacao"
+          <a href="./index.html"
             ><i class="fa-solid fa-list"></i> Programação</a
           >
         </li>
@@ -57,35 +60,30 @@
     </nav>
 
     <main>
-      <section class="evento__info">
-        <div class="evento__texto">
-          <h2>Evento Tech Londrina</h2>
-          <h3>24/05/2025</h3>
-          <p>Às 08:00h</p>
-          <p>📍 UniCesumar - Londrina</p>
-          <p>Av. Santa Mônica, 450 - Franca</p>
-        </div>
-      </section>
+      <section class="localizacao">
+        <h1>Localização do Evento</h1>
+        <p>
+          O evento será realizado no Centro de Convenções XYZ, no coração da
+          cidade.
+        </p>
+        <p>
+          <strong>Endereço:</strong> Av. Santa Mônica, 450 - Franca, Londrina - PR, 86027-610
+        </p>
+        <p><strong>Ponto de referência:</strong> Próximo ao Shopping Boulevard</p>
 
-      <section class="sobre">
-        <div class="sobre__texto">
-          <h2>Sobre o Evento</h2>
-          <p>
-            🚀 O <strong>GDG Tech Londrina</strong> é um evento anual que reúne a vibrante
-            comunidade de desenvolvimento de software da cidade! 💻🎉 Com foco
-            em **aprendizado, networking e colaboração**, o evento oferece
-            **palestras inspiradoras, workshops interativos e painéis com
-            especialistas** para discutir as últimas tendências da tecnologia.
-            🔥👨‍💻👩‍💻 Além disso, é uma oportunidade incrível para trocar
-            experiências, fazer novos contatos e fortalecer a comunidade tech
-            local. 🤝✨ Seja você iniciante ou experiente, esse é o lugar certo
-            para crescer e se conectar com profissionais incríveis! 🚀🔗
-          </p>
-        </div>
-      </section>
+        <!-- Google Maps Embed -->
 
-      <section class="inscrever">
-        <button class="inscricao__btn">Inscreva-se agora</button>
+        <div class="mapa__container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.33270642721!2d-51.143339788799665!3d-23.303684452089044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb437a3d1d44af%3A0x9c9f46adfc62d1eb!2sUniCesumar%20-%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1743099699612!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
 
       <section class="contatos">
@@ -142,6 +140,6 @@
       </footer>
     </main>
 
-    <script src="./JavaScript/main.js"></script>
+    <script src="./JavaScript/localizacao.js"></script>
   </body>
 </html>
