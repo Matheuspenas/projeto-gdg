@@ -88,6 +88,15 @@ header {
 }
 
 /* Estilização do formulário de inscrição */
+
+.inscricao__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: center;
+  flex-direction: column;
+}
+
 input {
   width: 100%;
   padding: 10px;
