@@ -61,4 +61,4 @@ A ideia das nossas cores, serão baseadas em uma união entre as cores da `GDG` 
 
 <h1>Trello</h1>
 
-![alt text](./Images/Captura de tela 2025-03-21 210138.png)
+![alt text](./Images/Captura%20de%20tela%202025-03-21%20210138.png)
