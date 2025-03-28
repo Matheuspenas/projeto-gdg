@@ -42,23 +42,23 @@ A ideia das nossas cores, serão baseadas em uma união entre as cores da `GDG` 
 
 <h1>Wireframes e Esboços</h1>
 
+<p>Página Inicial, onde as informações sobre o evento vão estar disponiveis</p>
+
+![alt text](./Images/Página%20Inicial.jpg)
+
 <p>Página de Palestrantes, onde as informações sobre os palestrantes como currículo, cargos, etc.</p>
 
-![alt text](<Página Inicial.jpg>)
+![alt text](./Images/Página%20de%20Palestrantes%20.jpg)
 
 <p>Página de Inscrição, onde será feita a inscrição do evento para receber os certificados, etc. </p>
 
-![alt text](<Página de Palestrantes .jpg>)
-
-<p>Página de Inscrição, onde será feita a inscrição do evento para receber os certificados, etc. </p>
-
-![alt text](<Página de Inscrição.jpg>)
+![alt text](./Images/Página%20de%20Inscrição.jpg)
 
 
 <h1>Mapa Mental</h1>
 
-![alt text](<Black Doodle Tools for Generating Ideas Mind Map.jpg>)
+![alt text](./Images/Black%20Doodle%20Tools%20for%20Generating%20Ideas%20Mind%20Map.jpg)
 
 <h1>Trello</h1>
 
-![alt text](<Captura de tela 2025-03-21 210138.png>)
+![alt text](./Images/Captura de tela 2025-03-21 210138.png)
