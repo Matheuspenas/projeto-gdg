@@ -21,6 +21,7 @@ header {
 }
 
 .evento-nome {
+  color: #ffffff;
   font-size: 20px;
   font-weight: bold;
 }
@@ -87,20 +88,46 @@ header {
   left: 0;
 }
 
-/* Estilização do formulário de inscrição */
+/* Seção de Inscrição */
 
-.inscricao__container {
+main {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  align-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
-input {
+.inscricao__container {
+  background: white;
+  padding: 30px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.input__campo {
+  margin-bottom: 15px;
+  text-align: left;
+  width: 90%;
+}
+
+.input__campo label {
+  color: #121212;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input__campo input {
   width: 100%;
   padding: 10px;
-  margin: 5px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -108,51 +135,45 @@ input {
 .inscricao__btn {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background: #4285f4;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+}
+
+.inscricao__btn:hover {
+  background: #357ae8;
 }
 
 .mensagem__sucesso {
-  color: #0056b3;
+  color: #007bff;
   font-weight: bold;
   margin-top: 10px;
 }
 
-/* Estilização do footer */
-
+/* Rodapé */
 footer {
   text-align: center;
-  padding: 15px;
-  background-color: #1f1f1f;
-  margin-top: 20px;
-}
-
-footer a {
+  padding: 20px;
+  background: #333;
   color: white;
-  text-decoration: none;
-  transition: color 0.3s ease;
+  width: 100%;
 }
 
-footer img {
-  width: 200px;
+.apoio-logo {
+  max-width: 150px;
+  margin-top: 10px;
 }
 
-/* Estilo de responsividade */
+/* Responsividade */
 @media (max-width: 768px) {
-  header {
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
+  .evento-nome {
+    font-size: 16px;
   }
-  .evento-info {
-    padding: 15px;
-    margin: 10px;
-  }
-  .inscricao-btn {
-    width: 100%;
-    padding: 12px;
+
+  .inscricao__container {
+    width: 90%;
   }
 }
