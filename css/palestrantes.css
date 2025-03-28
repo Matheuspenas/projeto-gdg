@@ -235,9 +235,8 @@ footer a {
   transition: color 0.3s ease;
 }
 
-footer a:hover {
-  text-decoration: underline;
-  color: #0056b3;
+footer img {
+  width: 200px;
 }
 
 /* Estilização de responsividade */
