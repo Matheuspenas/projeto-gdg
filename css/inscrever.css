@@ -97,7 +97,7 @@ main {
 }
 
 .inscricao__container {
-  background: white;
+  background: #1f1f1f;
   padding: 30px;
   width: 100%;
   max-width: 300px;
@@ -108,7 +108,7 @@ main {
 }
 
 h1 {
-  color: #121212;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -119,7 +119,7 @@ h1 {
 }
 
 .input__campo label {
-  color: #121212;
+  color: #fff;
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
