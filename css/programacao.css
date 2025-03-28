@@ -1,0 +1,164 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Audiowide;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  padding: 15px;
+  position: relative;
+}
+
+.evento-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.evento-nome {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Estilização do Menu Hamburguer */
+
+.menu__btn {
+  position: absolute;
+  left: 15px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close__btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #1f1f1f;
+  transition: left 0.3s ease;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-radius: 8%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: #333;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+/* Estilização da secção programação */
+
+.programacao {
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #1f1f1f;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.palestrante-card {
+  display: flex;
+  align-items: center;
+  background: #121212;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.palestrante-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.descricao {
+  flex: 1;
+}
+
+.horario {
+  font-weight: bold;
+  background: #4285f4;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1f1f1f;
+  color: white;
+  margin-top: 20px;
+}
+
+footer img {
+  width: 200px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  header {
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+  }
+  .evento-nome {
+    font-size: 18px;
+  }
+
+  .palestrante-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .palestrante-card img {
+    margin-bottom: 10px;
+  }
+}

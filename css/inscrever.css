@@ -87,81 +87,41 @@ header {
   left: 0;
 }
 
-/* Estilização da seção de informações do evento */
+/* Estilização do formulário de inscrição */
 
-.evento__info {
-  text-align: center;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.1);
-  margin: 20px;
-  border-radius: 10px;
+.inscricao__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: center;
+  flex-direction: column;
 }
 
-/* Estilização da seção sobre o evento */
-
-.sobre {
-  text-align: justify;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.1);
-  margin: 20px;
-  border-radius: 10px;
-}
-
-/* Estilização do botão inscrever - se */
-
-.inscrever {
-  text-align: center;
-  padding: 20px;
-
-  margin: 20px;
-  border-radius: 10px;
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .inscricao__btn {
+  width: 100%;
+  padding: 10px;
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
   border-radius: 5px;
-  margin-top: 15px;
-  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
-.inscricao__btn:hover {
-  background-color: #0056b3;
+.mensagem__sucesso {
+  color: #0056b3;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-/* Estilização da seção contatos */
-
-.contatos {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  padding: 20px;
-}
-
-.social__btn {
-  width: 50px;
-  height: 50px;
-  background: #007bff;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  font-size: 20px;
-  text-decoration: none;
-  transition: transform 0.2s ease-in-out;
-}
-
-.social__btn:hover {
-  background: #0056b3;
-  transform: scale(1.3);
-}
-
-/* Estilização do Footer  */
+/* Estilização do footer */
 
 footer {
   text-align: center;
@@ -187,32 +147,12 @@ footer img {
     justify-content: center;
     padding: 10px;
   }
-  .evento-nome {
-    font-size: 18px;
-  }
   .evento-info {
     padding: 15px;
     margin: 10px;
   }
-
-  .sobre {
-    padding: 15px;
-    margin: 10px;
-  }
-
   .inscricao-btn {
     width: 100%;
     padding: 12px;
-  }
-
-  .contatos {
-    gap: 10px;
-    padding: 15px;
-  }
-
-  .social-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
   }
 }

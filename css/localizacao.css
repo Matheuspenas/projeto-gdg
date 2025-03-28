@@ -6,6 +6,8 @@ body {
   padding: 0;
 }
 
+/* Header */
+
 header {
   display: flex;
   align-items: center;
@@ -16,16 +18,15 @@ header {
 }
 
 .evento-logo {
-  height: 40px;
+  height: 50px;
   margin-right: 10px;
 }
 
 .evento-nome {
   font-size: 20px;
-  font-weight: bold;
 }
 
-/* Estilização do Menu Hamburguer */
+/* Menu Hambúrguer */
 
 .menu__btn {
   position: absolute;
@@ -87,53 +88,41 @@ header {
   left: 0;
 }
 
-/* Estilização da seção de informações do evento */
+/* Seção de Localização */
 
-.evento__info {
+.localizacao {
   text-align: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.1);
-  margin: 20px;
-  border-radius: 10px;
 }
 
-/* Estilização da seção sobre o evento */
-
-.sobre {
-  text-align: justify;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.1);
-  margin: 20px;
-  border-radius: 10px;
+.localizacao h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-/* Estilização do botão inscrever - se */
-
-.inscrever {
-  text-align: center;
-  padding: 20px;
-
-  margin: 20px;
-  border-radius: 10px;
-}
-
-.inscricao__btn {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
+.localizacao p {
   font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-top: 15px;
-  transition: background-color 0.3s ease;
+  margin-bottom: 8px;
 }
 
-.inscricao__btn:hover {
-  background-color: #0056b3;
+/* Google Maps */
+
+.mapa__container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-/* Estilização da seção contatos */
+.mapa__container iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Contatos */
 
 .contatos {
   display: flex;
@@ -180,39 +169,23 @@ footer img {
   width: 200px;
 }
 
-/* Estilo de responsividade */
+/* Responsividade */
 @media (max-width: 768px) {
   header {
     flex-direction: row;
     justify-content: center;
     padding: 10px;
   }
-  .evento-nome {
-    font-size: 18px;
-  }
-  .evento-info {
+
+  .localizacao {
     padding: 15px;
-    margin: 10px;
   }
 
-  .sobre {
-    padding: 15px;
-    margin: 10px;
-  }
-
-  .inscricao-btn {
-    width: 100%;
-    padding: 12px;
+  .mapa-container iframe {
+    height: 250px;
   }
 
   .contatos {
-    gap: 10px;
-    padding: 15px;
-  }
-
-  .social-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
+    flex-wrap: wrap;
   }
 }
