@@ -162,6 +162,10 @@ footer {
   width: 100%;
 }
 
+footer p{
+  font-size: x-large;
+}
+
 .apoio-logo {
   max-width: 150px;
   margin-top: 10px;

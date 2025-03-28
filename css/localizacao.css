@@ -165,6 +165,10 @@ footer a {
   transition: color 0.3s ease;
 }
 
+footer p{
+  font-size: x-large;
+}
+
 footer img {
   width: 200px;
 }

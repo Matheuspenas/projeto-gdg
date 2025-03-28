@@ -138,6 +138,10 @@ footer {
   margin-top: 20px;
 }
 
+footer p{
+  font-size: x-large;
+}
+
 footer img {
   width: 200px;
 }
