@@ -5,26 +5,28 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  box-sizing: border-box; 
 }
 
 header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   background-color: #1f1f1f;
-  padding: 15px;
+  padding: 10px 15px; 
   position: relative;
 }
 
 .evento-logo {
-  height: 40px;
+  height: 30px; 
   margin-right: 10px;
 }
 
 .evento-nome {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px; 
   font-weight: bold;
+  margin: 0; 
 }
 
 /* Estilização do Menu Hamburguer */
@@ -95,28 +97,30 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 .inscricao__container {
   background: #1f1f1f;
-  padding: 30px;
-  width: 100%;
-  max-width: 300px;
+  padding: 20px; 
+  width: 95%; 
+  max-width: 400px; 
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin: 20px 0;
+  margin-bottom: 30px; 
 }
 
 h1 {
   color: #fff;
   margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .input__campo {
   margin-bottom: 15px;
   text-align: left;
-  width: 90%;
+  width: 100%; 
 }
 
 .input__campo label {
@@ -124,101 +128,162 @@ h1 {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .input__campo input {
-  width: 100%;
+  width: 100%; 
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box; 
 }
 
 .inscricao__btn {
   width: 100%;
-  padding: 10px;
+  margin: 10px 0;
+  padding: 12px; 
   background: #4285f4;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px; 
+  transition: background-color 0.3s ease;
 }
 
 .inscricao__btn:hover {
-  background: #357ae8;
+  background: #007bff;
 }
 
 .mensagem__sucesso {
   color: #007bff;
   font-weight: bold;
   margin-top: 10px;
+  font-size: 16px;
 }
 
 /* Estilização da contagem regressiva para o evento */
 
 #countdown {
   text-align: center;
-  padding: 40px;
+  padding: 30px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 
-#timer{
+#countdown h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#timer {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-.time__box{
-  background-color: #f0f0f0;
-  color: #121212;
+.time__box {
+  color: #fff;
   border-radius: 8px;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
-  width: 80px;
-  font-size: 36px;
+  width: 70px; 
+  font-size: 28px; 
   font-weight: bold;
+  box-sizing: border-box;
+  margin-bottom: 10px; 
 }
 
-.label{
-  display: block;
-  margin-top: 10px;
-  font-size: 14px;
+.label {
+  display: flex;
+  align-items: center;
+  margin-top: 5px; 
+  font-size: 12px; 
   color: #666;
+  
 }
-
 
 /* Rodapé */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   background: #333;
   color: white;
   width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 footer p {
-  font-size: x-large;
+  font-size: 1.2em;
+  margin-bottom: 5px;
 }
 
-.apoio-logo {
-  max-width: 150px;
-  margin-top: 10px;
+.apoio__logo {
+  max-width: 120px;
+  margin-top: 5px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
+/*Resposividade para telas menores (abaixo de 600px) */
+@media (max-width: 600px) {
   header {
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
+    justify-content: center; 
   }
 
   .evento-nome {
     font-size: 16px;
   }
 
+  .menu__btn {
+    display: block; 
+  }
+
+  #timer {
+    justify-content: space-around; 
+  }
+
+  .time__box {
+    width: 60px;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .label {
+    font-size: 10px;
+  }
+}
+
+
+/*Resposividade para telas maiores (acima  de 600px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  .evento-nome {
+    font-size: 20px;
+  }
+
   .inscricao__container {
-    width: 90%;
+    padding: 25px;
+    max-width: 500px;
+  }
+
+  #timer {
+    gap: 20px;
+  }
+
+  .time__box {
+    width: 75px;
+    padding: 18px;
+    font-size: 32px;
+  }
+
+  .label {
+    font-size: 13px;
   }
 }
