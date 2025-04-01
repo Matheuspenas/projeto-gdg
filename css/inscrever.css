@@ -4,6 +4,7 @@ body {
   font-family: Audiowide;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 header {
@@ -153,6 +154,40 @@ h1 {
   margin-top: 10px;
 }
 
+/* Estilização da contagem regressiva para o evento */
+
+#countdown {
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#timer{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.time__box{
+  background-color: #f0f0f0;
+  color: #121212;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 80px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.label{
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+
 /* Rodapé */
 footer {
   text-align: center;
@@ -162,7 +197,7 @@ footer {
   width: 100%;
 }
 
-footer p{
+footer p {
   font-size: x-large;
 }
 
@@ -173,6 +208,12 @@ footer p{
 
 /* Responsividade */
 @media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+  }
+
   .evento-nome {
     font-size: 16px;
   }
