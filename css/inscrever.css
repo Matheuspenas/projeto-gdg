@@ -5,28 +5,28 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 header {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   background-color: #1f1f1f;
-  padding: 10px 15px; 
+  padding: 10px 15px;
   position: relative;
 }
 
 .evento-logo {
-  height: 30px; 
+  height: 30px;
   margin-right: 10px;
 }
 
 .evento-nome {
   color: #ffffff;
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: bold;
-  margin: 0; 
+  margin: 0;
 }
 
 /* Estilização do Menu Hamburguer */
@@ -98,17 +98,18 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  margin: 20px;
 }
 
 .inscricao__container {
   background: #1f1f1f;
-  padding: 20px; 
-  width: 95%; 
-  max-width: 400px; 
+  padding: 20px;
+  width: 95%;
+  max-width: 400px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -120,7 +121,7 @@ h1 {
 .input__campo {
   margin-bottom: 15px;
   text-align: left;
-  width: 100%; 
+  width: 100%;
 }
 
 .input__campo label {
@@ -132,24 +133,24 @@ h1 {
 }
 
 .input__campo input {
-  width: 100%; 
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .inscricao__btn {
   width: 100%;
   margin: 10px 0;
-  padding: 12px; 
+  padding: 12px;
   background: #4285f4;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 18px; 
+  font-size: 18px;
   font-family: Audiowide;
   transition: background-color 0.3s ease;
 }
@@ -192,20 +193,19 @@ h1 {
   border-radius: 8px;
   padding: 15px;
   text-align: center;
-  width: 70px; 
-  font-size: 28px; 
+  width: 70px;
+  font-size: 28px;
   font-weight: bold;
   box-sizing: border-box;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .label {
   display: flex;
   align-items: center;
-  margin-top: 5px; 
-  font-size: 12px; 
+  margin-top: 5px;
+  font-size: 12px;
   color: #666;
-  
 }
 
 /* Rodapé */
@@ -224,15 +224,14 @@ footer p {
   margin-bottom: 5px;
 }
 
-.apoio__logo {
-  max-width: 120px;
-  margin-top: 5px;
+footer img {
+  width: 200px;
 }
 
 /*Resposividade para telas menores (abaixo de 600px) */
 @media (max-width: 600px) {
   header {
-    justify-content: center; 
+    justify-content: center;
   }
 
   .evento-nome {
@@ -240,11 +239,11 @@ footer p {
   }
 
   .menu__btn {
-    display: block; 
+    display: block;
   }
 
   #timer {
-    justify-content: space-around; 
+    justify-content: space-around;
   }
 
   .time__box {
@@ -257,7 +256,6 @@ footer p {
     font-size: 10px;
   }
 }
-
 
 /*Resposividade para telas maiores (acima  de 600px) */
 @media (min-width: 601px) and (max-width: 768px) {
