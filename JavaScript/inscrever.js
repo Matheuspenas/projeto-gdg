@@ -1,5 +1,6 @@
+// Função para abrir e fechar o menu hambúrguer
 function toggleMenu() {
-  document.getElementById("sidebar").classList.add("active");
+  document.getElementById("sidebar").classList.toggle("active");
 }
 
 function closeMenu() {
@@ -18,17 +19,8 @@ document
     this.reset(); // Limpa os campos do formulário
   });
 
-// Função para abrir e fechar o menu hambúrguer
-function toggleMenu() {
-  document.getElementById("sidebar").classList.toggle("active");
-}
-
-function closeMenu() {
-  document.getElementById("sidebar").classList.remove("active");
-}
-
 // Defina a data do evento
-const eventDate = new Date("2025-05-24T09:00:00").getTime();
+const eventDate = new Date("2025-05-24T08:00:00").getTime();
 
 // Atualiza a contagem regressiva a cada segundo
 const countdown = setInterval(function () {
