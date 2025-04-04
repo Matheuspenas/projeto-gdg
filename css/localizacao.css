@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-/* Header */
+/* Estlização do header daa página Header */
 
 header {
   display: flex;
@@ -23,7 +23,7 @@ header {
 }
 
 .evento-nome {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Menu Hambúrguer */
