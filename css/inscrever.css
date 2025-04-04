@@ -8,6 +8,19 @@ body {
   box-sizing: border-box;
 }
 
+/* Animação do background da tela  */
+
+#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-color: #121212;
+  mix-blend-mode: hard-light;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -208,11 +221,10 @@ h1 {
   color: #666;
 }
 
-/* Rodapé */
+/* Estilização do footer da página */
 footer {
   text-align: center;
   padding: 15px;
-  background: #333;
   color: white;
   width: 100%;
   box-sizing: border-box;
