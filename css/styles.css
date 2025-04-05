@@ -134,12 +134,20 @@ header {
   cursor: pointer;
   border-radius: 5px;
   margin-top: 15px;
-  transition: background-color 0.3s ease;
+  background: linear-gradient(
+    270deg,
+    #0f0,
+    #00f,
+    #f0f,
+    #0f0,
+    #00f,
+    #f0f,
+    #0f0
+  );
+  background-size: 1000% 100%;
+  animation: scrollGradient 10s linear infinite;
 }
 
-.inscricao__btn:hover {
-  background-color: #0056b3;
-}
 
 /* Estilização da seção contatos */
 
@@ -191,6 +199,16 @@ footer p{
 footer img {
   width: 200px;
 }
+
+@keyframes scrollGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
 
 /* Estilo de responsividade */
 @media (max-width: 768px) {

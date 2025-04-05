@@ -1,4 +1,7 @@
 body {
+  background-image: url(https://inscricoes.unicesumar.edu.br/assets/images/unicesumar-bg-footer.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #121212;
   color: #ffffff;
   font-family: Audiowide;
@@ -164,7 +167,7 @@ header {
 footer {
   text-align: center;
   padding: 15px;
-  background-color: #1f1f1f;
+
   margin-top: 20px;
 }
 
