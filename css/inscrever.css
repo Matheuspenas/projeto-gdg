@@ -172,20 +172,13 @@ h1 {
   cursor: pointer;
   font-size: 18px;
   font-family: Audiowide;
-  transition: background-color 0.3s ease;
+  
+  transition: transform 0.2s ease-in-out;
 }
 
 .inscricao__btn:hover {
-  background: #007bff;
+  transform: scale(1.1);
 }
-
-.mensagem__sucesso {
-  color: #007bff;
-  font-weight: bold;
-  margin-top: 10px;
-  font-size: 16px;
-}
-
 /* Estilização da contagem regressiva para o evento */
 
 #countdown {

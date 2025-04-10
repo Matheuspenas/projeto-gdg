@@ -7,17 +7,54 @@ function closeMenu() {
   document.getElementById("sidebar").classList.remove("active");
 }
 
-// Função para exibir mensagem de sucesso na inscrição
+// Script paraa armazenamento dos dados de inscrição
 document
   .getElementById("inscricao__form")
   .addEventListener("submit", function (event) {
-    event.preventDefault(); // Evita o recarregamento da página
-    document.getElementById("mensagem").style.display = "block"; // Exibe a mensagem
-    setTimeout(() => {
-      document.getElementById("mensagem").style.display = "none"; // Esconde a mensagem após 3s
-    }, 3000);
-    this.reset(); // Limpa os campos do formulário
+    event.preventDefault();
+
+    const form = document.getElementById("inscricao__form");
+    const formData = new FormData(form);
+
+    fetch(
+      "https://script.google.com/macros/s/AKfycbyWhSLRBPmvk46QCOxqeW5yNej-XCdXWes4DuV54H80PF_mme8i1RFUrxFF4qcBNJZZbA/exec",
+      {
+        method: "POST",
+        body: formData,
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        const mensagem = document.getElementById("mensagem");
+        if (data.status === "sucesso") {
+          mensagem.textContent = "Inscrição realizada com sucesso!";
+          mensagem.style.color = "blue";
+        } else if (data.status === "ja_inscrito") {
+          mensagem.textContent = "Você já está inscrito!";
+          mensagem.style.color = "orange";
+        } else {
+          mensagem.textContent = "Erro ao enviar inscrição. Tente novamente.";
+          mensagem.style.color = "red";
+        }
+        mensagem.style.display = "block";
+        setTimeout(() => {
+          mensagem.style.display = "none";
+        }, 4000);
+        form.reset();
+      })
+      .catch((err) => {
+        console.error(err);
+        const mensagem = document.getElementById("mensagem");
+        mensagem.textContent = "Erro ao enviar inscrição. Tente novamente.";
+        mensagem.style.color = "red";
+        mensagem.style.display = "block";
+        setTimeout(() => {
+          mensagem.style.display = "none";
+        }, 4000);
+      });
   });
+
+// Script de contagem regressiva para o evento
 
 // Defina a data do evento
 const eventDate = new Date("2025-05-24T08:00:00").getTime();
