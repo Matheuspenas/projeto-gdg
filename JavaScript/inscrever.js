@@ -15,6 +15,14 @@ document
 
     const form = document.getElementById("inscricao__form");
     const formData = new FormData(form);
+    const mensagem = document.getElementById("mensagem");
+    const loader = document.getElementById("loader");
+    const progress = document.querySelector(".progress");
+
+    // Esconde a mensagem anterior e mostra o loader
+    mensagem.style.display = "none";
+    loader.style.display = "block";
+    progress.style.animation = "loadProgress 2.5s forwards";
 
     fetch(
       "https://script.google.com/macros/s/AKfycbyWhSLRBPmvk46QCOxqeW5yNej-XCdXWes4DuV54H80PF_mme8i1RFUrxFF4qcBNJZZbA/exec",
@@ -25,34 +33,46 @@ document
     )
       .then((res) => res.json())
       .then((data) => {
-        const mensagem = document.getElementById("mensagem");
+        loader.style.display = "none";
+
         if (data.status === "sucesso") {
           mensagem.textContent = "Inscrição realizada com sucesso!";
-          mensagem.style.color = "blue";
+          mensagem.style.color = "#4285f4";
         } else if (data.status === "ja_inscrito") {
           mensagem.textContent = "Você já está inscrito!";
-          mensagem.style.color = "orange";
+          mensagem.style.color = "#0f0";
         } else {
           mensagem.textContent = "Erro ao enviar inscrição. Tente novamente.";
-          mensagem.style.color = "red";
+          mensagem.style.color = "#e63946";
         }
+
         mensagem.style.display = "block";
         setTimeout(() => {
           mensagem.style.display = "none";
+
+          // Reseta a barra de carregamento
+          progress.style.animation = "none";
+          progress.offsetHeight; // força reinicialização
+          progress.style.animation = null;
         }, 4000);
+
         form.reset();
       })
       .catch((err) => {
         console.error(err);
-        const mensagem = document.getElementById("mensagem");
+        loader.style.display = "none";
         mensagem.textContent = "Erro ao enviar inscrição. Tente novamente.";
         mensagem.style.color = "red";
         mensagem.style.display = "block";
         setTimeout(() => {
           mensagem.style.display = "none";
+          progress.style.animation = "none";
+          progress.offsetHeight;
+          progress.style.animation = null;
         }, 4000);
       });
   });
+
 
 // Script de contagem regressiva para o evento
 

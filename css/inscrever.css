@@ -172,12 +172,11 @@ h1 {
   cursor: pointer;
   font-size: 18px;
   font-family: Audiowide;
-  
-  transition: transform 0.2s ease-in-out;
+  transition: background-color 0.3s ease;
 }
 
 .inscricao__btn:hover {
-  transform: scale(1.1);
+  background-color: #001b44
 }
 /* Estilização da contagem regressiva para o evento */
 
@@ -239,6 +238,49 @@ footer p {
 footer img {
   width: 200px;
 }
+
+
+/* Barra de carregamento  após preencher o formulário */
+
+#loader {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loading__text {
+  font-size: 16px;
+  color: #00bfff;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.loading-bar {
+  width: 300px;
+  height: 20px;
+  border: 2px solid #00bfff;
+  background-color: #001b44;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  width: 0;
+  background-color: #00bfff;
+  animation: none;
+  transition: width 2.5s ease-in-out;
+}
+
+@keyframes loadProgress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 
 /*Resposividade para telas menores (abaixo de 600px) */
 @media (max-width: 600px) {
