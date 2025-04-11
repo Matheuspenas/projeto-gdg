@@ -1,11 +1,12 @@
 body {
+  background-image: url(https://inscricoes.unicesumar.edu.br/assets/images/unicesumar-bg-footer.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #121212;
   color: #ffffff;
   font-family: Audiowide;
   margin: 0;
   padding: 0;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 header {
@@ -103,7 +104,7 @@ header {
 .programacao {
   max-width: 90%; 
   margin: 20px auto;
-  background-color: #1f1f1f;
+
   padding: 15px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -112,7 +113,7 @@ header {
 .palestrante-card {
   display: flex;
   align-items: center;
-  background: #121212;
+  background: rgba(0, 0, 0, 0.4);
   margin: 10px 0;
   padding: 10px;
   border-radius: 8px;
@@ -146,7 +147,7 @@ header {
 footer {
   text-align: center;
   padding: 10px; 
-  background: #1f1f1f;
+  
   color: white;
   margin-top: 20px;
 }
