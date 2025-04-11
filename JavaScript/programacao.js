@@ -25,3 +25,17 @@ function toggleMenu() {
 
 window.addEventListener('load', checkFadeInElements);
 window.addEventListener('scroll', checkFadeInElements);
+
+
+
+VANTA.NET({
+  el: "#vanta-net",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0x0d6efd, // azul
+  backgroundColor:  0x121212
+})
