@@ -1,16 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Inscreva-se</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="./css/inscrever.css"
-    />
+    <link rel="stylesheet" type="text/css" href="./css/inscrever.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
@@ -24,6 +19,7 @@
   </head>
 
   <body>
+    <canvas id="matrix"></canvas>
     <header>
       <button class="menu__btn" onclick="toggleMenu()">&#9776;</button>
       <img
@@ -35,13 +31,12 @@
     </header>
 
     <!-- Menu Hamburguer -->
-
     <nav id="sidebar" class="sidebar">
       <button class="close__btn" onclick="closeMenu()">✖</button>
       <ul>
         <li>
           <a href="./index.html"
-            ><i class="fa-solid fa-house"></i> Pagina Inicial</a
+            ><i class="fa-solid fa-house"></i> Página Inicial</a
           >
         </li>
         <li>
@@ -55,7 +50,9 @@
           >
         </li>
         <li>
-          <a href="#inscricao"><i class="fa-solid fa-edit"></i> Inscrição</a>
+          <a href="./inscrever.html"
+            ><i class="fa-solid fa-edit"></i> Inscrição</a
+          >
         </li>
         <li>
           <a href="./localizacao.html"
@@ -65,39 +62,112 @@
       </ul>
     </nav>
 
-    <!-- Menu  de inscrição -->
+    <!-- Menu de inscrição -->
 
     <main>
       <section class="inscricao__container">
-        <h2>Faça sua Inscrição</h2>
+        <h1>Inscreva-se</h1>
         <form id="inscricao__form">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required />
+          <!-- Nome -->
+          <div class="input__campo">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Seu nome"
+              required
+            />
+          </div>
 
-          <label for="sobrenome">Sobrenome:</label>
-          <input type="text" id="sobrenome" name="sobrenome" required />
+          <!-- Sobrenome -->
+          <div class="input__campo">
+            <label for="sobrenome">Sobrenome</label>
+            <input
+              type="text"
+              id="sobrenome"
+              name="sobrenome"
+              placeholder="Seu sobrenome"
+              required
+            />
+          </div>
 
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required />
+          <!-- E-mail -->
+          <div class="input__campo">
+            <label for="email">Endereço de e-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="nome@dominio.com"
+              required
+            />
+          </div>
 
-          <label for="celular">Celular:</label>
-          <input type="tel" id="celular" name="celular" required />
+          <!-- Celular -->
+          <div class="input__campo">
+            <label for="celular">Celular</label>
+            <input
+              type="tel"
+              id="celular"
+              name="celular"
+              placeholder="(XX) XXXXX-XXXX"
+              required
+            />
+          </div>
 
           <button type="submit" class="inscricao__btn">Inscrever-se</button>
         </form>
-        <p id="mensagem" class="mensagem__sucesso" style="display: none">
-          Sua inscrição foi realizada com sucesso!
-        </p>
+        <p id="mensagem" class="mensagem__sucesso" style="display: none"></p>
+        <!-- Loader -->
+        <div id="loader" style="display: none">
+          <p class="loading__text">Quase lá... preparando tudo pra você!.</p>
+          <div class="loading-bar">
+            <div class="progress"></div>
+          </div>
+        </div>
       </section>
+
+      <!-- Contagem regressiva para o evento -->
+
+      <div id="countdown">
+        <h1>Faltam Apenas :</h1>
+        <div id="timer">
+          <div class="time__box">
+            <span id="days"></span>
+            <span class="label">Dias</span>
+          </div>
+
+          <!-- Horas -->
+
+          <div class="time__box">
+            <span id="hours"></span>
+            <span class="label">Horas</span>
+          </div>
+
+          <!-- Minutos-->
+
+          <div class="time__box">
+            <span id="minutes"></span>
+            <span class="label">Minutos</span>
+          </div>
+
+          <!--Segundos -->
+
+          <div class="time__box">
+            <span id="seconds"></span>
+            <span class="label">Segundos</span>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
       <p>Apoio</p>
       <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont">
         <img
-          src="https://cdn.discordapp.com/attachments/1247726685894348812/1352342836179112086/Logo_Unicesumar.webp?ex=67e78e29&is=67e63ca9&hm=9a83109a682c4c4cd832944bb9f01389e841deb278e29c0ec2a5df449c32d4e4&"
+          src="https://www.unicesumar.edu.br/wp-content/themes/unicesumar/templates/assets_home/img/logo.webp"
           alt="UniCesumar"
-          class="apoio-logo"
         />
       </a>
     </footer>

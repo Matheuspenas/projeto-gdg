@@ -19,6 +19,7 @@
   </head>
 
   <body>
+    <div id="vanta-net"></div>
     <header>
       <button class="menu__btn" onclick="toggleMenu()">&#9776;</button>
       <img
@@ -66,7 +67,7 @@
           <h2>Evento Tech Londrina</h2>
           <h3>24/05/2025</h3>
           <p>Às 08:00h</p>
-          <p>📍 UniCesumar - Londrina</p>
+          <p>📍 UniCesumar - Londrina - PR</p>
           <p>Av. Santa Mônica, 450 - Franca</p>
         </div>
       </section>
@@ -75,21 +76,27 @@
         <div class="sobre__texto">
           <h2>Sobre o Evento</h2>
           <p>
-            🚀 O <strong>GDG Tech Londrina</strong> é um evento anual que reúne
-            a vibrante comunidade de desenvolvimento de software da cidade! 💻🎉
-            Com foco em **aprendizado, networking e colaboração**, o evento
-            oferece **palestras inspiradoras, workshops interativos e painéis
-            com especialistas** para discutir as últimas tendências da
-            tecnologia. 🔥👨‍💻👩‍💻 Além disso, é uma oportunidade incrível para
-            trocar experiências, fazer novos contatos e fortalecer a comunidade
-            tech local. 🤝✨ Seja você iniciante ou experiente, esse é o lugar
-            certo para crescer e se conectar com profissionais incríveis! 🚀🔗
+            O <strong>GDG Tech Londrina</strong> é um evento anual que reúne a
+            vibrante comunidade de desenvolvimento de software da cidade! Com
+            foco em <strong>aprendizado, networking e colaboração</strong>, o
+            evento oferece
+            <strong
+              >palestras inspiradoras, workshops interativos e painéis com
+              especialistas</strong
+            >
+            para discutir as últimas tendências da tecnologia. Além disso, é uma
+            oportunidade incrível para trocar experiências, fazer novos contatos
+            e fortalecer a comunidade tech local. Seja você iniciante ou
+            experiente, esse é o lugar certo para crescer e se conectar com
+            profissionais incríveis! 🚀🔗
           </p>
         </div>
       </section>
 
       <section class="inscrever">
-        <button class="inscricao__btn">Inscreva-se agora</button>
+        <a href="./inscrever.html">
+          <button class="inscricao__btn">Inscreva-se agora</button>
+        </a>
       </section>
 
       <section class="contatos">
@@ -142,11 +149,14 @@
         <p>Apoio</p>
         <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
           ><img
-            src="https://cdn.discordapp.com/attachments/1247726685894348812/1352342836179112086/Logo_Unicesumar.webp?ex=67e78e29&is=67e63ca9&hm=9a83109a682c4c4cd832944bb9f01389e841deb278e29c0ec2a5df449c32d4e4&"
+            id="logo-unicesumar"
+            src="https://www.unicesumar.edu.br/wp-content/themes/unicesumar/templates/assets_home/img/logo.webp"
             alt="UniCesumar"
         /></a>
       </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
     <script src="./JavaScript/main.js"></script>
   </body>
 </html>

@@ -4,6 +4,8 @@ body {
   font-family: Audiowide;
   margin: 0;
   padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 header {
@@ -11,18 +13,19 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 15px;
+  padding: 10px 15px; 
   position: relative;
 }
 
 .evento-logo {
-  height: 40px;
+  height: 30px; 
   margin-right: 10px;
 }
 
 .evento-nome {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
+  margin: 0;
 }
 
 /* Estilização do Menu Hamburguer */
@@ -35,6 +38,7 @@ header {
   color: white;
   font-size: 24px;
   cursor: pointer;
+  display: block; 
 }
 
 .close__btn {
@@ -58,6 +62,11 @@ header {
   transition: left 0.3s ease;
   padding-top: 60px;
   z-index: 1000;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
 }
 
 .sidebar ul {
@@ -85,15 +94,17 @@ header {
 
 .sidebar.active {
   left: 0;
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* Estilização da secção programação */
 
 .programacao {
-  max-width: 900px;
+  max-width: 90%; 
   margin: 20px auto;
   background-color: #1f1f1f;
-  padding: 20px;
+  padding: 15px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
@@ -105,14 +116,16 @@ header {
   margin: 10px 0;
   padding: 10px;
   border-radius: 8px;
+  flex-direction: row;
+  text-align: left; 
 }
 
 .palestrante-card img {
   width: 80px;
-  height: 80px;
+  height: 80px; 
   border-radius: 50%;
-  margin-right: 15px;
-  padding: 10px;
+  margin-right: 10px; 
+  padding: 5px; 
 }
 
 .descricao {
@@ -121,36 +134,58 @@ header {
 
 .horario {
   font-weight: bold;
-  background: #4285f4;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
-  width: 150px;
-  display: flex;
-  justify-content: center;
+  width: auto;
+  display: inline-block; 
+  text-align: center;
+  margin-top: 5px; 
 }
 
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 10px; 
   background: #1f1f1f;
   color: white;
   margin-top: 20px;
 }
 
-footer img {
-  width: 200px;
+footer p {
+  font-size: large; 
 }
 
-/* Responsivo */
+footer img {
+  width: 150px; 
+}
+
+.fade-in-element {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.fade-in-element.visible {
+  opacity: 1;
+}
+
+/* Responsivo para telas menores (máximo de 600px de largura) */
 @media (max-width: 600px) {
   header {
     flex-direction: row;
-    justify-content: center;
     padding: 10px;
   }
+
+  .evento-logo {
+    height: 30px;
+    margin-right: 5px;
+  }
+
   .evento-nome {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .menu__btn {
+    display: block; 
   }
 
   .palestrante-card {
@@ -160,5 +195,51 @@ footer img {
 
   .palestrante-card img {
     margin-bottom: 10px;
+    margin-right: 0; 
+  }
+
+  .horario {
+    width: 100%; 
+    margin-top: 10px;
+  }
+
+  footer p {
+    font-size: 1em; 
+  }
+
+  footer img {
+    width: 100px; 
+  }
+}
+
+/* Responsivo para telas médias (entre 601px e 768px de largura) */
+@media (min-width: 601px) and (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  .evento-nome {
+    font-size: 20px;
+  }
+
+  .palestrante-card {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .palestrante-card img {
+    margin-right: 15px;
+  }
+
+  .horario {
+    width: 120px; 
+  }
+
+  footer p {
+    font-size: 1.1em;
+  }
+
+  footer img {
+    width: 180px;
   }
 }
