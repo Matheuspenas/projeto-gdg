@@ -131,3 +131,43 @@ function resetAutoSlide() {
 
 updateCarousel();
 startAutoSlide();
+
+// Script de animação e funcionamento do botão bolha
+
+const botaoBolha = document.querySelector('.botao__bolha');
+const secaoInscrever = document.querySelector('.inscrever');
+const menuBtn = document.querySelector('.menu__btn');
+
+// Mostrar ou esconder o botão bolha baseado no scroll
+function toggleBolhaVisivel() {
+  const secaoTop = secaoInscrever.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+
+  if (secaoTop < windowHeight - 100) {
+    botaoBolha.classList.add('visible');
+    botaoBolha.classList.remove('hidden');
+  } else {
+    botaoBolha.classList.remove('visible');
+    botaoBolha.classList.add('hidden');
+  }
+}
+
+// Função chamada ao clicar no botão
+function destacarMenu() {
+  if (menuBtn) {
+    menuBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    menuBtn.classList.add('destacar');
+
+    setTimeout(() => {
+      menuBtn.classList.remove('destacar');
+    }, 1500);
+  }
+}
+
+// Eventos
+window.addEventListener('scroll', toggleBolhaVisivel);
+window.addEventListener('load', toggleBolhaVisivel);
+
+// Deixa a função disponível globalmente, já que o botão chama no onclick
+window.destacarMenu = destacarMenu;
+

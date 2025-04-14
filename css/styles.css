@@ -300,6 +300,62 @@ footer img {
   width: 200px;
 }
 
+/* Estilização do botão bolha para levar as pessoas até o menu */
+
+.botao__bolha {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007BFF;
+  color: white;
+  padding: 15px 18px;
+  border: none;
+  border-radius: 50px;
+  font-family: Audiowide;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.botao__bolha:hover {
+  transform: scale(1.05);
+  background: #0056b3;
+}
+
+.botao__bolha.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.botao__bolha.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Animação de destaque no botão do menu */
+@keyframes piscar {
+  0%, 100% {
+    box-shadow: 0 0 0px #007BFF;
+  }
+  50% {
+    box-shadow: 0 0 15px 5px #007BFF;
+  }
+}
+
+.menu__btn.destacar {
+  animation: piscar 1.5s ease-in-out;
+  border-radius: 8px;
+}
+
+/* Animação do botão de inscrição */
+
 @keyframes scrollGradient {
   0% {
     background-position: 0% 50%;
