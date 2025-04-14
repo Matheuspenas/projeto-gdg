@@ -428,7 +428,9 @@ footer img {
 }
 
 /* Para telas ainda menores */
-@media (max-width: 480px) {
+/* Para telas ainda menores */
+@media (max-width: 600px) {
+  /* Estilos para telas com largura máxima de 600px */
   .evento-nome {
     font-size: 14px;
   }
@@ -449,9 +451,9 @@ footer img {
     padding: 15px;
   }
   .social__btn {
-    width: 45px; 
-    height: 45px; 
-    font-size: 18px; 
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
   }
   footer p {
     font-size: small;
