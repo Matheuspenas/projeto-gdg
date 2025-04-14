@@ -26,12 +26,13 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 10px 15px;
+  padding: 10px 15px; /* Mantendo o mesmo padding do segundo código */
   position: relative;
+  /* Removendo qualquer altura fixa que possa ter sido adicionada */
 }
 
 .evento-logo {
-  height: 30px;
+  height: 30px; /* Mantendo a mesma altura do logo */
   margin-right: 10px;
 }
 
@@ -285,8 +286,10 @@ header {
 
 footer {
   text-align: center;
-  padding: 10px;
+  padding: 15px; /* Usando o mesmo padding do segundo código */
   margin-top: 15px;
+  /* Adicionando o mesmo font-size do segundo código (opcional, mas para consistência) */
+  font-size: 14px;
 }
 
 footer a {
@@ -403,14 +406,14 @@ footer img {
   }
 
   .contatos {
-    gap: 15px; 
-    padding: 20px; 
+    gap: 15px;
+    padding: 20px;
   }
 
   .social__btn {
-    width: 50px; 
-    height: 50px; 
-    font-size: 20px; 
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
   }
 
   footer p {
@@ -428,11 +431,10 @@ footer img {
 }
 
 /* Para telas ainda menores */
-/* Para telas ainda menores */
 @media (max-width: 600px) {
   /* Estilos para telas com largura máxima de 600px */
   .evento-nome {
-    font-size: 14px;
+    font-size: 16px;
   }
   .menu__btn {
     font-size: 20px;
@@ -456,10 +458,11 @@ footer img {
     font-size: 18px;
   }
   footer p {
-    font-size: small;
+    font-size:1.2em;
+    margin-bottom: 5px;
   }
   footer img {
-    width: 100px;
+    width: 200px;
   }
   .botao__bolha {
     font-size: 10px;
