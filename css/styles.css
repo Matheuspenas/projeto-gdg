@@ -4,6 +4,8 @@ body {
   font-family: Audiowide;
   margin: 0;
   padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Estilização do background da página */
@@ -24,17 +26,17 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 15px;
+  padding: 10px 15px;
   position: relative;
 }
 
 .evento-logo {
-  height: 40px;
+  height: 30px;
   margin-right: 10px;
 }
 
 .evento-nome {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -111,8 +113,8 @@ header {
 
 .evento__info {
   text-align: center;
-  padding: 20px;
-  margin: 20px;
+  padding: 15px;
+  margin: 10px;
   border-radius: 10px;
 }
 
@@ -120,8 +122,8 @@ header {
 
 .sobre {
   text-align: justify;
-  padding: 20px;
-  margin: 20px;
+  padding: 15px;
+  margin: 10px;
   border-radius: 10px;
 }
 
@@ -129,9 +131,8 @@ header {
 
 .inscrever {
   text-align: center;
-  padding: 20px;
-
-  margin: 20px;
+  padding: 15px;
+  margin: 10px;
   border-radius: 10px;
 }
 
@@ -139,32 +140,34 @@ header {
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 24px;
   font-family: Audiowide;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 10px;
   background: linear-gradient(270deg, #0f0, #00f, #f0f, #0f0, #00f, #f0f, #0f0);
   background-size: 1000% 100%;
   animation: scrollGradient 10s linear infinite;
+  width: 80%;
+  max-width: 350px;
 }
 
 /* Estilização da seção de eventos anteriores */
 
 .eventos__anteriores {
   text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  margin: 50px 0;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  margin: 30px 0;
 }
 
 .carrossel__container {
-  max-width: 800px;
-  margin: 3rem auto;
+  max-width: 95%;
+  margin: 2rem auto;
   overflow: hidden;
   position: relative;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .carrossel {
@@ -180,13 +183,13 @@ header {
 
 .carousel-image {
   min-width: 100%;
-  height: 350px;
+  height: 250px;
   object-fit: cover;
   transition: transform 0.5s, filter 0.5s, opacity 0.5s;
   opacity: 0.5;
   transform: scale(0.85);
   filter: brightness(60%);
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 /* Imagem em destaque */
@@ -204,8 +207,8 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   color: white;
-  font-size: 2rem;
-  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  padding: 0.3rem 0.6rem;
   cursor: pointer;
   z-index: 2;
   display: none;
@@ -222,24 +225,24 @@ header {
 }
 
 .carrossel__btn.prev {
-  left: 10px;
+  left: 5px;
 }
 
 .carrossel__btn.next {
-  right: 10px;
+  right: 5px;
 }
 
 /* Bolinhas de navegação */
 .carrossel__dots {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 
 .carrossel__dots .dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
+  width: 8px;
+  height: 8px;
+  margin: 0 3px;
   background-color: gray;
   border-radius: 50%;
   cursor: pointer;
@@ -255,35 +258,35 @@ header {
 .contatos {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  padding: 20px;
+  gap: 20px; /* Aumentei ainda mais o espaçamento */
+  padding: 25px; /* Aumentei ainda mais o padding da seção */
 }
 
 .social__btn {
-  width: 50px;
-  height: 50px;
+  width: 60px; /* Aumentei ainda mais a largura */
+  height: 60px; /* Aumentei ainda mais a altura */
   background: #007bff;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 24px; /* Aumentei ainda mais o tamanho da fonte dos ícones */
   text-decoration: none;
   transition: transform 0.2s ease-in-out;
 }
 
 .social__btn:hover {
   background: #0056b3;
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 /* Estilização do Footer  */
 
 footer {
   text-align: center;
-  padding: 15px;
-  margin-top: 20px;
+  padding: 10px;
+  margin-top: 15px;
 }
 
 footer a {
@@ -293,39 +296,39 @@ footer a {
 }
 
 footer p {
-  font-size: x-large;
+  font-size: large;
 }
 
 footer img {
-  width: 200px;
+  width: 150px;
 }
 
 /* Estilização do botão bolha para levar as pessoas até o menu */
 
 .botao__bolha {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 15px;
+  right: 15px;
   background: #007BFF;
   color: white;
-  padding: 15px 18px;
+  padding: 12px 15px;
   border: none;
   border-radius: 50px;
   font-family: Audiowide;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
   cursor: pointer;
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0;
   z-index: 999;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
 }
 
 .botao__bolha:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   background: #0056b3;
 }
 
@@ -345,7 +348,7 @@ footer img {
     box-shadow: 0 0 0px #007BFF;
   }
   50% {
-    box-shadow: 0 0 15px 5px #007BFF;
+    box-shadow: 0 0 10px 3px #007BFF;
   }
 }
 
@@ -370,42 +373,93 @@ footer img {
   header {
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 8px;
   }
   .evento-nome {
-    font-size: 18px;
+    font-size: 16px;
   }
   .evento-info {
-    padding: 15px;
-    margin: 10px;
+    padding: 12px;
+    margin: 8px;
   }
 
   .sobre {
-    padding: 15px;
-    margin: 10px;
+    padding: 12px;
+    margin: 8px;
   }
 
-  .inscricao-btn {
-    width: 100%;
-    padding: 12px;
+  .inscricao__btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 90%;
   }
 
   .carousel-image {
-    height: 220px;
+    height: 180px;
   }
 
   .carrossel__btn {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .contatos {
-    gap: 10px;
-    padding: 15px;
+    gap: 15px; 
+    padding: 20px; 
   }
 
-  .social-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
+  .social__btn {
+    width: 50px; 
+    height: 50px; 
+    font-size: 20px; 
+  }
+
+  footer p {
+    font-size: medium;
+  }
+
+  footer img {
+    width: 120px;
+  }
+
+  .botao__bolha {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+}
+
+/* Para telas ainda menores */
+@media (max-width: 480px) {
+  .evento-nome {
+    font-size: 14px;
+  }
+  .menu__btn {
+    font-size: 20px;
+  }
+  .close__btn {
+    font-size: 20px;
+  }
+  .carousel-image {
+    height: 150px;
+  }
+  .carrossel__btn {
+    font-size: 1rem;
+  }
+  .contatos {
+    gap: 12px;
+    padding: 15px;
+  }
+  .social__btn {
+    width: 45px; 
+    height: 45px; 
+    font-size: 18px; 
+  }
+  footer p {
+    font-size: small;
+  }
+  footer img {
+    width: 100px;
+  }
+  .botao__bolha {
+    font-size: 10px;
   }
 }
