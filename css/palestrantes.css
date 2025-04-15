@@ -122,6 +122,13 @@ header {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
   background-color: #1f1f1f;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -135,8 +142,8 @@ header {
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto;
+  border: 3px solid orange;
 }
-
 .card h3 {
   font-size: 1.2rem;
   margin: 10px 0;
@@ -148,6 +155,7 @@ header {
 }
 
 .saiba-mais {
+  font-family: Audiowide;
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
