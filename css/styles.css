@@ -375,13 +375,13 @@ footer img {
   pointer-events: none;
 }
 
-.menu__btn.vibrando {
-  animation: vibrar 0.2s infinite;
+.menu__btn.pulse {
+  animation: pulse 2s ease-in-out infinite;
 }
 
 .notificacao {
   position: absolute;
-  top: 5px;
+  top: 15px;
   left: 35px;
   width: 10px;
   height: 10px;
@@ -394,25 +394,10 @@ footer img {
 }
 /* Animação de destaque no botão do menu */
 
-@keyframes vibrar {
-  0% {
-    transform: translate(0);
-  }
-  20% {
-    transform: translate(-1px, 2px);
-  }
-  40% {
-    transform: translate(-1px, -2px);
-  }
-  60% {
-    transform: translate(1px, 2px);
-  }
-  80% {
-    transform: translate(1px, -2px);
-  }
-  100% {
-    transform: translate(0);
-  }
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.3); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
 }
 
 @keyframes piscar {

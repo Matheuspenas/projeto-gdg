@@ -160,10 +160,10 @@ function destacarMenu() {
   // Rolar até o botão
   menuBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-  // Adicionar a classe vibrando por 2 segundos
-  menuBtn.classList.add('vibrando');
+  // Adiciona a animação pulse por 2 segundos
+  menuBtn.classList.add('pulse');
   setTimeout(() => {
-    menuBtn.classList.remove('vibrando');
+    menuBtn.classList.remove('pulse');
     notificacao.style.display = 'block';
   }, 2000);
 }
@@ -188,4 +188,3 @@ window.addEventListener('load', toggleBolhaVisivel);
 
 // Deixa a função disponível globalmente, já que o botão chama no onclick
 window.destacarMenu = destacarMenu;
-
