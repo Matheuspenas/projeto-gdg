@@ -20,3 +20,17 @@ document.addEventListener("click", function (event) {
     closeMenu();
   }
 });
+
+// Script de animação 3d do background
+
+VANTA.NET({
+  el: "#vanta-net",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0xff0000, 
+  backgroundColor: 0x121212,
+});

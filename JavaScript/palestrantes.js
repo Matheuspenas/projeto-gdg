@@ -44,3 +44,17 @@ window.onclick = function(event) {
         }
     });
 };
+
+// Script de animação 3d do background
+
+VANTA.NET({
+  el: "#vanta-net",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0xffa500, 
+  backgroundColor: 0x121212,
+});

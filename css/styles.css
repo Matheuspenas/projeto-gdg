@@ -26,13 +26,13 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 10px 15px; /* Mantendo o mesmo padding do segundo código */
+  padding: 10px 15px; 
   position: relative;
-  /* Removendo qualquer altura fixa que possa ter sido adicionada */
+  
 }
 
 .evento-logo {
-  height: 30px; /* Mantendo a mesma altura do logo */
+  height: 30px; 
   margin-right: 10px;
 }
 
@@ -378,6 +378,7 @@ footer img {
 .menu__btn.pulse {
   animation: pulse 2s ease-in-out infinite;
 }
+
 
 .notificacao {
   position: absolute;
