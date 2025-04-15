@@ -259,20 +259,20 @@ header {
 .contatos {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Aumentei ainda mais o espaçamento */
-  padding: 25px; /* Aumentei ainda mais o padding da seção */
+  gap: 20px; 
+  padding: 25px; 
 }
 
 .social__btn {
-  width: 60px; /* Aumentei ainda mais a largura */
-  height: 60px; /* Aumentei ainda mais a altura */
+  width: 60px; 
+  height: 60px;
   background: #007bff;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 24px; /* Aumentei ainda mais o tamanho da fonte dos ícones */
+  font-size: 24px;
   text-decoration: none;
   transition: transform 0.2s ease-in-out;
 }
@@ -286,9 +286,8 @@ header {
 
 footer {
   text-align: center;
-  padding: 15px; /* Usando o mesmo padding do segundo código */
+  padding: 15px;
   margin-top: 15px;
-  /* Adicionando o mesmo font-size do segundo código (opcional, mas para consistência) */
   font-size: 14px;
 }
 
@@ -345,20 +344,40 @@ footer img {
   pointer-events: none;
 }
 
-/* Animação de destaque no botão do menu */
-@keyframes piscar {
-  0%, 100% {
-    box-shadow: 0 0 0px #007BFF;
-  }
-  50% {
-    box-shadow: 0 0 10px 3px #007BFF;
-  }
+.menu__btn.vibrando {
+  animation: vibrar 0.2s infinite;
 }
 
-.menu__btn.destacar {
-  animation: piscar 1.5s ease-in-out;
-  border-radius: 8px;
+.notificacao {
+  position: absolute;
+  top: 5px;
+  left: 35px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  animation: piscar 1s infinite;
+  z-index: 1001;
+  pointer-events: none;
+  display: none;
 }
+/* Animação de destaque no botão do menu */
+
+@keyframes vibrar {
+  0% { transform: translate(0); }
+  20% { transform: translate(-1px, 2px); }
+  40% { transform: translate(-1px, -2px); }
+  60% { transform: translate(1px, 2px); }
+  80% { transform: translate(1px, -2px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes piscar {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
 
 /* Animação do botão de inscrição */
 

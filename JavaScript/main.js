@@ -154,14 +154,32 @@ function toggleBolhaVisivel() {
 
 // Função chamada ao clicar no botão
 function destacarMenu() {
-  if (menuBtn) {
-    menuBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    menuBtn.classList.add('destacar');
+  const menuBtn = document.querySelector('.menu__btn');
+  const notificacao = document.getElementById('notificacao');
 
-    setTimeout(() => {
-      menuBtn.classList.remove('destacar');
-    }, 1500);
-  }
+  // Rolar até o botão
+  menuBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  // Adicionar a classe vibrando por 2 segundos
+  menuBtn.classList.add('vibrando');
+  setTimeout(() => {
+    menuBtn.classList.remove('vibrando');
+    notificacao.style.display = 'block';
+  }, 2000);
+}
+
+function toggleMenu() {
+  const sidebar = document.getElementById('sidebar');
+  const notificacao = document.getElementById('notificacao');
+  sidebar.classList.toggle('active');
+
+  // Quando clicar no menu, some a bolinha
+  notificacao.style.display = 'none';
+}
+
+function closeMenu() {
+  const sidebar = document.getElementById('sidebar');
+  sidebar.classList.remove('active');
 }
 
 // Eventos
