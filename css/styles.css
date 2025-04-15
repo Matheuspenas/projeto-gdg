@@ -259,14 +259,14 @@ header {
 .contatos {
   display: flex;
   justify-content: center;
-  gap: 20px; 
-  padding: 25px; 
+  gap: 20px;
+  padding: 25px;
 }
 
 .social__btn {
-  width: 60px; 
+  width: 60px;
   height: 60px;
-  background: #007bff;
+  background: #007bff; /* cor padrão antes do hover */
   color: white;
   display: flex;
   align-items: center;
@@ -274,12 +274,42 @@ header {
   border-radius: 50%;
   font-size: 24px;
   text-decoration: none;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease,
+    border 0.3s ease;
+  border: 2px solid transparent;
 }
 
 .social__btn:hover {
-  background: #0056b3;
   transform: scale(1.2);
+  border-color: #a3c8f7;
+}
+
+/* Cores ao passar o mouse */
+.social__btn.twitter:hover {
+  background-color: #000; 
+}
+
+.social__btn.instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.social__btn.linkedin:hover {
+  background-color: #0077b5; 
+}
+
+.social__btn.youtube:hover {
+  background-color: #ff0000; 
+}
+
+.social__btn.email:hover {
+  background-color: #6c757d;
 }
 
 /* Estilização do Footer  */
@@ -311,10 +341,10 @@ footer img {
   position: fixed;
   bottom: 15px;
   right: 15px;
-  background: #007BFF;
+  background: #007bff;
   color: white;
   padding: 12px 15px;
-  margin: 20px ;
+  margin: 20px;
   border: none;
   border-radius: 50px;
   font-family: Audiowide;
@@ -365,20 +395,35 @@ footer img {
 /* Animação de destaque no botão do menu */
 
 @keyframes vibrar {
-  0% { transform: translate(0); }
-  20% { transform: translate(-1px, 2px); }
-  40% { transform: translate(-1px, -2px); }
-  60% { transform: translate(1px, 2px); }
-  80% { transform: translate(1px, -2px); }
-  100% { transform: translate(0); }
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-1px, 2px);
+  }
+  40% {
+    transform: translate(-1px, -2px);
+  }
+  60% {
+    transform: translate(1px, 2px);
+  }
+  80% {
+    transform: translate(1px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 
 @keyframes piscar {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
-
-
 
 /* Animação do botão de inscrição */
 
@@ -478,7 +523,7 @@ footer img {
     font-size: 18px;
   }
   footer p {
-    font-size:1.2em;
+    font-size: 1.2em;
     margin-bottom: 5px;
   }
   footer img {
