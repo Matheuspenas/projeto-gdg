@@ -21,6 +21,26 @@ document.addEventListener("click", function (event) {
   }
 });
 
+// Animação fade in da página
+
+document.addEventListener('DOMContentLoaded', () => {
+  const elements = document.querySelectorAll('.fade-in-element');
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // remove o observador depois que anima
+      }
+    });
+  }, {
+    threshold: 0.1 // ativa quando 10% do elemento aparece
+  });
+
+  elements.forEach(el => observer.observe(el));
+});
+
+
 // Script de animação 3d do background
 
 VANTA.NET({
