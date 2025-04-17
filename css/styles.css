@@ -146,9 +146,10 @@ header {
   position: relative;
   text-decoration: none;
   font-weight: 600;
-  border-radius: 100px;
+  border-radius: 20px;
   overflow: hidden;
   padding: 4px;
+  width: 500px;
   isolation: isolate;
   background: transparent;
   z-index: 0;
@@ -164,7 +165,7 @@ header {
   position: absolute;
   inset: 0;
   z-index: -1;
-  border-radius: 100px;
+  border-radius: 2px;
   background: linear-gradient(
     270deg,
     #0f0,
@@ -200,7 +201,7 @@ header {
   padding: 1rem 1.5rem;
   font-size: 1.1rem;
   background: #3596ffe8; /* azul */
-  border-radius: 100px;
+  border-radius: 20px;
   height: 100%;
   z-index: 1;
   transition: background-color 0.3s ease, transform 0.1s ease;
