@@ -19,15 +19,15 @@
   </head>
 
   <body>
-    <canvas id="matrix"></canvas>
+    <canvas id="matrix" class="fade-in-element"></canvas>
     <header>
-      <button class="menu__btn" onclick="toggleMenu()">&#9776;</button>
+      <button class="menu__btn fade-in-element" onclick="toggleMenu()">&#9776;</button>
       <img
         src="./Images/Logo gdg.png"
         alt="Logo do Evento"
-        class="evento-logo"
+        class="evento-logo fade-in-element"
       />
-      <h1 class="evento-nome">Google Developer Groups</h1>
+      <h1 class="evento-nome fade-in-element">Google Developer Groups</h1>
     </header>
 
     <!-- Menu Hamburguer -->
@@ -65,7 +65,7 @@
     <!-- Menu de inscrição -->
 
     <main>
-      <section class="inscricao__container">
+      <section class="inscricao__container fade-in-element">
         <h1>Inscreva-se</h1>
         <form id="inscricao__form">
           <!-- Nome -->
@@ -116,7 +116,7 @@
             />
           </div>
 
-          <button type="submit" class="inscricao__btn">Inscrever-se</button>
+          <button type="submit" class="inscricao__btn fade-in-element">Inscrever-se</button>
         </form>
         <p id="mensagem" class="mensagem__sucesso" style="display: none"></p>
         <!-- Loader -->
@@ -130,7 +130,7 @@
 
       <!-- Contagem regressiva para o evento -->
 
-      <div id="countdown">
+      <div id="countdown" class="fade-in-element">
         <h1>Faltam Apenas :</h1>
         <div id="timer">
           <div class="time__box">
@@ -162,7 +162,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="fade-in-element">
       <p>Apoio</p>
       <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont">
         <img
