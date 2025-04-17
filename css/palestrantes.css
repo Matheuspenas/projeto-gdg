@@ -4,6 +4,8 @@ body {
   font-family: Audiowide;
   margin: 0;
   padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Estilização do background da página */
@@ -22,17 +24,17 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 15px;
+  padding: 10px 15px; 
   position: relative;
 }
 
 .evento-logo {
-  height: 40px;
+  height: 30px; 
   margin-right: 10px;
 }
 
 .evento-nome {
-  font-size: 20px;
+  font-size: 18px; 
   font-weight: bold;
 }
 
@@ -118,14 +120,16 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
-  width: 100%;
+  width: 95%;
+  max-width: 1200px;
+  justify-content: center; 
 }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; 
+  height: 100%;
   border-radius: 8px;
   padding: 16px;
   box-sizing: border-box;
@@ -137,20 +141,20 @@ header {
 }
 
 .card img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto;
+  margin: 0 auto 10px;
   border: 3px solid orange;
 }
 .card h3 {
-  font-size: 1.2rem;
-  margin: 10px 0;
+  font-size: 1.1rem;
+  margin: 8px 0;
 }
 
 .card p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #666;
 }
 
@@ -158,11 +162,12 @@ header {
   font-family: Audiowide;
   background-color: #007bff;
   color: white;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-size: 0.9rem;
 }
 
 .saiba-mais:hover {
@@ -189,42 +194,43 @@ header {
 }
 
 .modal-img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 20px;
+  margin: 0 auto 15px;
   display: block;
 }
 
 .modal-content {
   background-color: #1f1f1f;
-  margin: 10% auto;
+  margin: 20% auto; 
   padding: 20px;
   border-radius: 10px;
-  width: 50%;
+  width: 90%; 
+  max-width: 500px;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .modal-content h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
 }
 
 .modal-content p {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #444;
 }
 
 .social-links {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .social-links a {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #007bff;
-  margin: 0 10px;
+  margin: 0 8px;
   transition: color 0.3s;
 }
 
@@ -236,7 +242,7 @@ header {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #aaa;
   cursor: pointer;
   transition: color 0.3s;
@@ -250,8 +256,9 @@ header {
 
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   margin-top: 20px;
+  box-sizing: border-box;
 }
 
 footer a {
@@ -261,28 +268,28 @@ footer a {
 }
 
 footer p {
-  font-size: x-large;
+  font-size: 1.2em;
 }
 
 footer img {
-  width: 200px;
+  width: 150px;
+  max-width: 80%;
+  height: auto;
 }
 
 /* Estilização de responsividade */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   header {
-    flex-direction: row;
     justify-content: center;
     padding: 10px;
   }
 
   .evento-nome {
-    font-size: 18px;
+    font-size: 16px;
   }
 
-  .palestrantes-container {
-    flex-direction: column;
-    align-items: center;
+  .menu__btn {
+    display: block;
   }
 
   .palestrantes-grid {
@@ -291,5 +298,36 @@ footer img {
 
   .card {
     width: 90%;
+    margin: 0 auto 20px; 
+  }
+
+  .modal-content {
+    margin: 30% auto; 
+    width: 90%; 
+    max-width: 90%; 
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  .evento-nome {
+    font-size: 18px;
+  }
+
+  .palestrantes-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .card {
+    width: 80%;
+    margin: 0 auto 20px; 
+  }
+
+  .modal-content {
+    width: 70%;
+    margin: 20% auto; /* Ajustei a margem superior */
   }
 }
