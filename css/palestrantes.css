@@ -277,6 +277,18 @@ footer img {
   height: auto;
 }
 
+/* Estilização da animação .fade-in-element */
+
+.fade-in-element {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.fade-in-element.visible {
+  opacity: 1;
+}
+
+
 /* Estilização de responsividade */
 @media (max-width: 600px) {
   header {
