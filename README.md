@@ -185,3 +185,132 @@ A página possui uma animação **fade-in** para diversos elementos que aparecem
 🎥 **GIF das animações fade-in ao rolar:**  
 `(adicione aqui)`  
 ![GIF Fade In](./Images/gif-fadein.gif)
+
+---
+
+## 🗓️ Página de Programação
+
+Apresenta os horários, temas e palestrantes do evento de forma clara e estilizada.
+
+- Mantém o mesmo layout da página inicial (com header, menu e animações);
+- Efeito de fundo **Vanta.net em verde**, com transição suave (fade-in);
+- Cards com:
+  - Foto e nome do palestrante;
+  - Tema da palestra;
+  - Horário do bloco.
+
+🎥 GIF da página de programação:  
+(adicione aqui)
+
+---
+
+## 👩‍🏫 Página de Palestrantes
+
+Apresenta os palestrantes do evento com destaque visual e informações relevantes.
+
+- Mantém o mesmo layout da página inicial (header, menu hambúrguer e animações);
+- Fundo animado com **Vanta.net em laranja**, incluindo transição suave (fade-in);
+- Cada palestrante é exibido em um **card estilizado**, contendo:
+  - Foto com bordas arredondadas e contorno laranja;
+  - Nome e título profissional (ex: “Especialista em IA”);
+  - Botão com animação ao clicar, rotulado como **"Ver Perfil"**
+
+## 🧾 Ao clicar em “Ver Perfil”:
+
+- É exibido um **modal** chamado **Perfil Completo**:
+  - Mostra a foto do palestrante (sem bordas);
+  - Exibe todas as informações relevantes sobre ele (mini currículo);
+  - Inclui **ícones interativos com links para redes sociais** (LinkedIn, GitHub, Instagram, Twitter (X), etc).
+
+🎥 GIF da página de palestrantes:  
+(adicione aqui)
+
+---
+
+## 📝 Página de Inscrição
+
+Página acessada ao clicar no botão **“Inscreva-se agora!”** na página inicial ou no **menu hambúrguer**.
+
+- Mantém o mesmo layout das outras páginas (header, menu hambúrguer, footer e animações com fade-in);
+- **Fundo animado estilo “Matrix”** com `canvas` simulando chuva de "0" e "1" em **cores alternadas** (azul, verde, laranja e vermelho), refletindo a identidade visual do evento.
+
+🎥 GIF da animação de fundo:
+(adicione aqui)
+
+---
+
+### 🧾 Formulário de Inscrição
+
+Exibido centralizado e em destaque com `box-shadow`, dando aparência de estar acima do fundo.
+
+- Título: **“Inscreva-se”**;
+- Campos obrigatórios:
+
+  - Nome;
+  - Sobrenome;
+  - Endereço de e-mail;
+  - Número de celular.
+
+- Botão de envio com **animação ao clicar**;
+- Ao clicado pelo usuário após todos os dados serem preenchidos corretamente:
+  - Uma **barra de carregamento** aparece abaixo do botão;
+  - Os dados são verificados e enviados para uma **planilha no Google Sheets**, criada exclusivamente para armazenar as inscrições com segurança (ex: para emissão de certificados de participação).
+
+🎥 GIF do formulário e da barra de carregamento:
+(adicione aqui)
+
+---
+
+### ✉️ Mensagens de Retorno
+
+Após o envio dos dados, o sistema responde com mensagens claras dentro da mesma seção:
+
+- ✅**Inscrição realizada com sucesso!** (mensagem azul);
+- 🟢**Você já está inscrito!** (mensagem verde – caso o usuário tente se inscrever novamente com os mesmos dados);
+- ❌**Erro ao enviar inscrição. Tente novamente.** (mensagem vermelha – possíveis causas):
+  - Falha na conexão com a internet;
+  - API do Google Sheets fora do ar;
+  - Campos obrigatórios não preenchidos corretamente;
+  - Formato de e-mail ou número inválidos.
+
+🎥 GIF das mensagens de retorno:
+(adicione aqui)
+
+---
+
+### ⏳ Temporizador do Evento
+
+Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
+
+- Texto: **“Faltam apenas:”**
+- Seguido de: dias, horas, minutos e segundos, **atualizando a cada segundo** sem atrasos ou recarregamento da página.
+
+🎥 GIF do cronômetro em funcionamento:
+(adicione aqui)
+
+🎉 Quando o contador chega a zero (horário de início do evento), ele é **automaticamente substituído** por uma mensagem:
+
+> **"O evento começou!"**
+
+🎥 GIF de exibição da mensagem:
+(adicione aqui)
+
+---
+
+## 📍 Página de Localização
+
+Página acessada ao clicar no botão **“Localização”** no menu hambúrguer da página principal ou em qualqer uma das outras.
+
+- Mantém o mesmo layout das outras páginas (header, menu hambúrguer, footer e animações com fade-in);
+- Fundo com **efeito visual Vanta.NET vermelho** (movimentação de linhas e pontos) aplicado com `JavaScript`;
+- Apresenta as **informações do local do evento** com clareza:
+
+  - 🏛️ Local: Auditório da Unicesumar (2º andar);
+  - 📍 Endereço: Av. Santa Mônica, 450 – Franca, Londrina – PR, 86027-610;
+  - 🛍️ Ponto de referência: Próximo ao Shopping Boulevard.
+
+- Mapa do Google Maps embutido, com bordas arredondadas e `box-shadow`, direcionando o usuário diretamente para o site ou aplicativo, para ter acesso a localização exatas e rotas até o local do evento;
+- Responsivo e adaptável para celulares.
+
+🎥 GIF do mapa e visual da página:  
+(adicione aqui)
