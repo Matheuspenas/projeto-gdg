@@ -62,14 +62,13 @@ A ideia das nossas cores, serão baseadas em uma união entre as cores da `GDG` 
 
 ![alt text](./Images/Captura%20de%20tela%202025-03-21%20210138.png)
 
-
 # Projeto GDG – Página Inicial
 
 ## 📄 Descrição da Página Inicial
 
 A página inicial tem como objetivo principal apresentar as informações essenciais do evento GDG Londrina, com um layout moderno, interações visuais e acessibilidade para diversos dispositivos.
 
-A seguir estão as principais seções da página inicial, com suas funcionalidades e espaço para demonstração visual (GIFs):
+A seguir estão as principais seções da página inicial, com suas funcionalidades e espaço para demonstração visual (GIFs/fotos):
 
 ---
 
@@ -103,7 +102,7 @@ Logo após o header, é exibida uma **seção com data, horário, nome e localiz
 
 ## 🟢 Botão de Inscrição
 
-Um botão grande e chamativo com chamada à ação leva diretamente para a página de **formulário de inscrição**.
+Um botão grande e chamativo com chamada à ação leva diretamente para a página do **formulário de inscrição**.
 
 🎥 **GIF do botão de inscrição:**  
 `(adicione aqui)`  
@@ -141,7 +140,7 @@ Uma **galeria automática de fotos** do evento anterior:
 
 Ícones de redes sociais redondos e interativos:
 
-- Ao passar o mouse ou clicar (em dispositivos móveis), mudam de cor de fundo para a respectiva rede.
+- Ao passar o mouse ou clicar (em dispositivos móveis), mudam a cor de fundo para a respectiva da rede social.
 - Todos os botões estão linkados corretamente:
   - Twitter (X)
   - Instagram
@@ -168,11 +167,21 @@ No final da página, há uma seção de "Apoio", destacando os **patrocinadores,
 ## 🎨 Animação de Fundo e Escolha de Cores
 
 - O **background da página** possui uma animação com efeito `vanta.net` em azul.
-- As cores foram escolhidas com base:
-  - Em eventos anteriores do GDG Londrina;
-  - Na paleta de cores da **Unicesumar** (local do evento);
-  - E com um toque tecnológico para trazer um visual inovador e moderno.
 
 🎥 **GIF da animação de fundo e cores:**  
 `(adicione aqui)`  
 ![GIF Fundo Vanta](./Images/gif-vanta.gif)
+
+---
+
+## ✨ Animações Fade-In ao Rolar a Página
+
+A página possui uma animação **fade-in** para diversos elementos que aparecem conforme o usuário rola o conteúdo:
+
+- Torna a navegação mais leve e visualmente agradável;
+- Melhora a leitura e a transição entre seções;
+- Responsiva em diferentes dispositivos.
+
+🎥 **GIF das animações fade-in ao rolar:**  
+`(adicione aqui)`  
+![GIF Fade In](./Images/gif-fadein.gif)
