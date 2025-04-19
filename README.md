@@ -1,34 +1,34 @@
 # Projeto-GDG
 
-<h1>Descrição do Projeto</h1>
-Este projeto tem como obljetivo a divulgação de um evento tecnológioco GDG por meio de uma pagina web.
+## ✨ Descrição do Projeto
 
-A pagina ira conter a data, hora e local do evento juntamente com uma seção com o com o curriculo dos palestrantes e uma funcionalidade de incrição para o evento
+Este projeto tem como objetivo a divulgação de um evento tecnológico GDG por meio de uma página web.
 
-<h1>Funcionalidades da Pagina</h1>
+A página irá conter a data, hora e local do evento, juntamente com uma seção com o currículo dos palestrantes e uma funcionalidade de inscrição para o evento.
 
-- `Funcionalidade 1`:Exibição de um banner com o nome e a data do evento.
-  Descrição curta do evento.
-- `Funcionalidade 2`:Botão de chamada para ação, como "Inscreva-se agora".
-- `Funcionalidade 3`:Links para outras partes do site.
-- `Funcionalidade 4`:Atividades do evento com horários e descrições.
-- `Funcionalidade 5`:Cards com palestrantes.
-- `Funcionalidade 6`:Mapa integrado com o local do evento e endereço.
-- `Funcionalidade 7`:O layout será adaptável para desktop, tablet e mobile, garantindo boa experiência em qualquer dispositivo.
-- `Funcionalidade 8`:Menu hamburguer para dispositivos móveis, facilitando a navegação.
-- `Funcionalidade 9`:Galeria de fotos com navegação para visualizar imagens de palestrantes ou eventos anteriores.
-- `Funcionalidade 10`:Formulário de inscrição com validação de campos (como e-mail válido).
-- `Funcionalidade 11`:Mensagem de confirmação após o envio do formulário de inscrição.
-- `Funcionalidade 12`:Efeitos interativos, como animações simples e hover em botões e links.
+## 🔧 Funcionalidades da Página
 
-<h1>Publico Alvo</h1>
+- `Funcionalidade 1`: Exibição de um banner com o nome e a data do evento. Descrição curta do evento.
+- `Funcionalidade 2`: Botão de chamada para ação, como "Inscreva-se agora".
+- `Funcionalidade 3`: Links para outras partes do site.
+- `Funcionalidade 4`: Atividades do evento com horários e descrições.
+- `Funcionalidade 5`: Cards com palestrantes.
+- `Funcionalidade 6`: Mapa integrado com o local do evento e endereço.
+- `Funcionalidade 7`: Layout responsivo para desktop, tablet e mobile.
+- `Funcionalidade 8`: Menu hamburguer para dispositivos móveis.
+- `Funcionalidade 9`: Galeria de fotos com navegação.
+- `Funcionalidade 10`: Formulário de inscrição com validação.
+- `Funcionalidade 11`: Mensagem de confirmação após inscrição.
+- `Funcionalidade 12`: Efeitos interativos e animações em botões e links.
+
+## 🔼 Público-Alvo
 
 - `Programadores`
 - `Universitários`
 - `Interessados`
 - `Investidores`
 
-<h1>Tecnologias utilizadas</h1>
+## 🚀 Tecnologias Utilizadas
 
 - `Visual Studio Code`
 - `Canva`
@@ -36,31 +36,28 @@ A pagina ira conter a data, hora e local do evento juntamente com uma seção co
 - `Trello`
 - `Git/GitHub`
 
-<h1>Justificativa do Design</h1>
+## 🎨 Justificativa do Design
 
-A ideia das nossas cores, serão baseadas em uma união entre as cores da `GDG` e `Unicesumar`, como uma forma de destaque e junção entre as duas partes.
+As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesumar`, promovendo a união entre os dois.
 
-<h1>Wireframes e Esboços</h1>
 
-<p>Página Inicial, onde as informações sobre o evento vão estar disponiveis</p>
+## 🖋️ Wireframes e Esboços
 
-![alt text](./Images/Página%20Inicial.jpg)
+- Página Inicial: Informativa sobre o evento.
+- Página de Programação: Informa sobre os temas, horarios, palestrantes, intervalos(se houver) no dia do evento.
+- Página de Palestrantes: Currículos e cargos dos palestrantes.
+- Página de Inscrição: Para efetuar a inscrição e receber certificado(se houver emissão).
+- Página de Localização: Contém informações sobre o local, horario e em qual parte do campus será realizado o evento, além de conter um mapa integrado levando diretamente a localização.
 
-<p>Página de Palestrantes, onde as informações sobre os palestrantes como currículo, cargos, etc.</p>
+## 🔠 Mapa Mental
 
-![alt text](./Images/Página%20de%20Palestrantes%20.jpg)
+**[Imagem ilustrativa com as ideias centrais do projeto aqui]**
 
-<p>Página de Inscrição, onde será feita a inscrição do evento para receber os certificados, etc. </p>
+## 📅 Trello
 
-![alt text](./Images/Página%20de%20Inscrição.jpg)
+**[Captura de tela do quadro com as tarefas organizadas aqui]**
 
-<h1>Mapa Mental</h1>
-
-![alt text](./Images/Black%20Doodle%20Tools%20for%20Generating%20Ideas%20Mind%20Map.jpg)
-
-<h1>Trello</h1>
-
-![alt text](./Images/Captura%20de%20tela%202025-03-21%20210138.png)
+---
 
 # Projeto GDG – Página Inicial
 
@@ -200,7 +197,7 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
   - Horário do bloco.
 
 🎥 GIF da página de programação:  
-(adicione aqui)
+<video src="/Gravando 2025-04-19 141217.mp4" width="800" height="525" controls></video>
 
 ---
 
