@@ -197,7 +197,7 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
   - Horário do bloco.
 
 🎥 GIF da página de programação:  
-<video src="./Gravando 2025-04-19 141217.mp4" width="800" height="525" controls></video>
+<video src="./Gifs/Gravação de tela Página de Programação(desktop).gif4" width="800" height="525" controls></video>
 
 ---
 
