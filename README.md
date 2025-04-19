@@ -197,7 +197,9 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
   - Horário do bloco.
 
 🎥 GIF da página de programação:  
-<video src="./Gifs/Gravação de tela Página de Programação(desktop).gif4" width="800" height="525" controls></video>
+
+## Versão Desktop
+![Versão Desktop](./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif)
 
 ---
 
