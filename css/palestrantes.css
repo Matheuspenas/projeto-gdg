@@ -24,17 +24,17 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 10px 15px; 
+  padding: 10px 15px;
   position: relative;
 }
 
 .evento-logo {
-  height: 30px; 
+  height: 30px;
   margin-right: 10px;
 }
 
 .evento-nome {
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -122,7 +122,7 @@ header {
   gap: 20px;
   width: 95%;
   max-width: 1200px;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .card {
@@ -184,9 +184,9 @@ header {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.4);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .modal:hover {
@@ -204,10 +204,10 @@ header {
 
 .modal-content {
   background-color: #1f1f1f;
-  margin: 20% auto; 
+  margin: 15% auto;
   padding: 20px;
   border-radius: 10px;
-  width: 90%; 
+  width: 90%;
   max-width: 500px;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -288,7 +288,6 @@ footer img {
   opacity: 1;
 }
 
-
 /* Estilização de responsividade */
 @media (max-width: 600px) {
   header {
@@ -310,13 +309,13 @@ footer img {
 
   .card {
     width: 90%;
-    margin: 0 auto 20px; 
+    margin: 0 auto 20px;
   }
 
   .modal-content {
-    margin: 30% auto; 
-    width: 90%; 
-    max-width: 90%; 
+    margin: 30% auto;
+    width: 90%;
+    max-width: 90%;
   }
 }
 
@@ -335,7 +334,7 @@ footer img {
 
   .card {
     width: 80%;
-    margin: 0 auto 20px; 
+    margin: 0 auto 20px;
   }
 
   .modal-content {
