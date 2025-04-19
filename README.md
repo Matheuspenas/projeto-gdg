@@ -201,8 +201,9 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
 ## Versão Desktop
 ![Versão Desktop](./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif)
 
-### Versão Mobile
+## Versão Mobile
 ![Versão Mobile](./Gifs/Gravação%20de%20tela%20da%20Página%20de%20Programação(mobile).gif)
+
 ---
 
 ## 👩‍🏫 Página de Palestrantes
