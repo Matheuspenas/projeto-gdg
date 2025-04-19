@@ -40,7 +40,6 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 
 As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesumar`, promovendo a união entre os dois.
 
-
 ## 🖋️ Wireframes e Esboços
 
 - Página Inicial: Informativa sobre o evento.
@@ -51,11 +50,11 @@ As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesum
 
 ## 🔠 Mapa Mental
 
-**[Imagem ilustrativa com as ideias centrais do projeto aqui]**
+![Mapa Mental](./Images/Black%20Doodle%20Tools%20for%20Generating%20Ideas%20Mind%20Map.jpg)
 
 ## 📅 Trello
 
-**[Captura de tela do quadro com as tarefas organizadas aqui]**
+![Imagem Trello](./Images/Captura%20de%20tela%202025-03-21%20210138.png)
 
 ---
 
@@ -196,12 +195,14 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
   - Tema da palestra;
   - Horário do bloco.
 
-🎥 GIF da página de programação:  
+🎥 GIF da página de programação:
 
 ## Versão Desktop
+
 ![Versão Desktop](./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif)
 
 ## Versão Mobile
+
 ![Versão Mobile](./Gifs/Gravação%20de%20tela%20da%20Página%20de%20Programação(mobile).gif)
 
 ---
@@ -287,15 +288,25 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 - Texto: **“Faltam apenas:”**
 - Seguido de: dias, horas, minutos e segundos, **atualizando a cada segundo** sem atrasos ou recarregamento da página.
 
-🎥 GIF do cronômetro em funcionamento:
-(adicione aqui)
+## Versão Desktop
+
+![Versão Desktop](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(desktop).gif)
+
+## Versão Mobile
+
+![Versão Mobile](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(mobile).gif)
 
 🎉 Quando o contador chega a zero (horário de início do evento), ele é **automaticamente substituído** por uma mensagem:
 
 > **"O evento começou!"**
 
-🎥 GIF de exibição da mensagem:
-(adicione aqui)
+## Versão Desktop
+
+![Versão Desktop](./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar(desktop).gif)
+
+## Versão Mobile
+
+![Versão Mobile](./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar.gif)
 
 ---
 
