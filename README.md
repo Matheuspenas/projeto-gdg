@@ -226,7 +226,14 @@ Apresenta os palestrantes do evento com destaque visual e informações relevant
   - Inclui **ícones interativos com links para redes sociais** (LinkedIn, GitHub, Instagram, Twitter (X), etc).
 
 🎥 GIF da página de palestrantes:  
-(adicione aqui)
+
+## Versão Desktop
+
+![Versão Desktop](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(desktop).gif)
+
+## Versão Mobile
+
+![Versão Mobile](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(mobile).gif)
 
 ---
 
