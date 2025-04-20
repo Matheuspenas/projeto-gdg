@@ -26,13 +26,12 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 10px 15px; /* Mantendo o mesmo padding do segundo código */
+  padding: 10px 15px;
   position: relative;
-  /* Removendo qualquer altura fixa que possa ter sido adicionada */
 }
 
 .evento-logo {
-  height: 30px; /* Mantendo a mesma altura do logo */
+  height: 30px;
   margin-right: 10px;
 }
 
@@ -41,6 +40,29 @@ header {
   font-weight: bold;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-texto {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.evento-nome {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.evento-local {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4fc3f7; /* Azul claro chamativo */
+}
 /* Estilização do Menu Hamburguer */
 
 .menu__btn {

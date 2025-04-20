@@ -51,7 +51,7 @@ VANTA.NET({
   scale: 1.0,
   scaleMobile: 1.0,
   color: 0x0d6efd, // azul
-  backgroundColor: 0x000000,
+  backgroundColor: 0x121212,
 });
 
 // Script para funcionamento das funcionalidades da seção do carrossel com as fotos de eventos anteriores

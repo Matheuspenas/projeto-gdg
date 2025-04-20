@@ -133,7 +133,7 @@ header {
 .mapa__container {
   width: 95%; /* Ajustado para ocupar a largura disponível em telas menores */
   max-width: 600px;
-  margin: 20px auto;
+  margin: 50px auto;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -150,6 +150,7 @@ header {
 .contatos {
   display: flex;
   justify-content: center;
+  margin: 20px 0;
   gap: 20px;
   padding: 25px;
   flex-wrap: wrap; /* Adicionado para que os botões quebrem em telas menores */
