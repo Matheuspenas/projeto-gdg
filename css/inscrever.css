@@ -42,6 +42,32 @@ header {
   margin: 0;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-texto {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.evento-nome {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.evento-local {
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(to right, blue, yellow, red, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Estilização do Menu Hamburguer */
 
 .menu__btn {
@@ -241,7 +267,6 @@ footer img {
   width: 200px;
 }
 
-
 /* Estilização da animação .fade-in-element */
 
 .fade-in-element {
@@ -293,7 +318,6 @@ footer img {
     width: 100%;
   }
 }
-
 
 /*Resposividade para telas menores (abaixo de 600px) */
 @media (max-width: 600px) {

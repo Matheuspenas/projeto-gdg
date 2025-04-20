@@ -38,6 +38,30 @@ header {
   font-weight: bold;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-texto {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.evento-nome {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.evento-local {
+  font-size: 14px;
+  font-weight: bold;
+  color:#ffa500;
+}
+
 /* Estilização do Menu Hamburguer */
 
 .menu__btn {
