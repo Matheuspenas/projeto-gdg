@@ -185,7 +185,7 @@ header {
 
 /* Estilização da seção de eventos anteriores */
 
-h1 {
+#evento-anterior {
   text-align: center;
  margin: 50px;
 }
