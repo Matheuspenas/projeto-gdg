@@ -285,8 +285,8 @@ h1 {
   background-color: #ff0000;
 }
 
-.social__btn.email:hover {
-  background-color: #6c757d;
+.social__btn.github:hover {
+  background-color: #181717;
 }
 
 /* Estilização do Footer  */
