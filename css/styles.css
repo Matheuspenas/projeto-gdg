@@ -194,7 +194,9 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  margin: 0 100px 100px 100px;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto 100px auto;
 }
 
 .event-card {
