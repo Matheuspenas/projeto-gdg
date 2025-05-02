@@ -28,6 +28,12 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 - `Interessados`
 - `Investidores`
 
+## 💻 Linguagens Utilizadas
+
+- `HTML5`
+- `CSS3`
+- `JavaScript`
+
 ## 🚀 Tecnologias Utilizadas
 
 - `Visual Studio Code`
@@ -35,6 +41,15 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 - `Figma`
 - `Trello`
 - `Git/GitHub`
+
+## 🗃 Armazenamento de Dados
+
+- `Google Sheets` – Utilizado como banco de dados para armazenar inscrições, permitindo uma gestão centralizada e fácil de dados.
+
+## 📚 Bibliotecas e Recursos Externos
+
+- [Font Awesome](https://fontawesome.com/) – Ícones vetoriais usados na interface
+- [Vanta.js](https://www.vantajs.com/) – Animação de fundo com efeito de rede (Net)
 
 ## 🎨 Justificativa do Design
 
@@ -199,11 +214,11 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif)
+![Versão Desktop](<./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif>)
 
 ## Versão Mobile
 
-![Versão Mobile](./Gifs/Gravação%20de%20tela%20da%20Página%20de%20Programação(mobile).gif)
+![Versão Mobile](<./Gifs/Gravação%20de%20tela%20da%20Página%20de%20Programação(mobile).gif>)
 
 ---
 
@@ -225,15 +240,15 @@ Apresenta os palestrantes do evento com destaque visual e informações relevant
   - Exibe todas as informações relevantes sobre ele (mini currículo);
   - Inclui **ícones interativos com links para redes sociais** (LinkedIn, GitHub, Instagram, Twitter (X), etc).
 
-🎥 GIF da página de palestrantes:  
+🎥 GIF da página de palestrantes:
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(desktop).gif)
+![Versão Desktop](<./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(desktop).gif>)
 
 ## Versão Mobile
 
-![Versão Mobile](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(mobile).gif)
+![Versão Mobile](<./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(mobile).gif>)
 
 ---
 
@@ -297,11 +312,11 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(desktop).gif)
+![Versão Desktop](<./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(desktop).gif>)
 
 ## Versão Mobile
 
-![Versão Mobile](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(mobile).gif)
+![Versão Mobile](<./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(mobile).gif>)
 
 🎉 Quando o contador chega a zero (horário de início do evento), ele é **automaticamente substituído** por uma mensagem:
 
@@ -309,7 +324,7 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar(desktop).gif)
+![Versão Desktop](<./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar(desktop).gif>)
 
 ## Versão Mobile
 
