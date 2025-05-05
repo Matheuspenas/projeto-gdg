@@ -54,8 +54,6 @@ VANTA.NET({
   backgroundColor: 0x121212,
 });
 
-
-
 // Script de animação e funcionamento do botão bolha
 
 const botaoBolha = document.querySelector('.botao__bolha');
@@ -112,3 +110,35 @@ window.addEventListener('load', toggleBolhaVisivel);
 
 // Deixa a função disponível globalmente, já que o botão chama no onclick
 window.destacarMenu = destacarMenu;
+
+
+//  Script para exibir 4 eventos por vez
+document.addEventListener("DOMContentLoaded", () => {
+  const eventCards = document.querySelectorAll('.event-card');
+  const loadMoreBtn = document.getElementById('loadMoreBtn');
+  const cardsPerClick = 4;
+
+  let visibleCount = 4;
+
+  // Oculta todos os eventos além dos 4 primeiros
+  eventCards.forEach((card, index) => {
+    if (index >= visibleCount) {
+      card.classList.add('hidden');
+    }
+  });
+
+  // Ao clicar no botão, mostra mais 4 eventos
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      const hiddenCards = document.querySelectorAll('.event-card.hidden');
+
+      for (let i = 0; i < cardsPerClick && i < hiddenCards.length; i++) {
+        hiddenCards[i].classList.remove('hidden');
+      }
+
+      if (document.querySelectorAll('.event-card.hidden').length === 0) {
+        loadMoreBtn.style.display = 'none';
+      }
+    });
+  }
+});

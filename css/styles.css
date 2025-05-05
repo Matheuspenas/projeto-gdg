@@ -187,7 +187,7 @@ header {
 
 #evento-anterior {
   text-align: center;
- margin: 50px;
+  margin: 50px;
 }
 
 .event-grid {
@@ -230,6 +230,34 @@ header {
   color: #ffffff;
   font-size: 0.9em;
   margin-bottom: 5px;
+}
+
+/* Esconde os eventos inicialmente além dos primeiros */
+
+.event-card.hidden {
+  display: none;
+}
+
+/* Estilização do botão de carregar mais eventos  */
+
+.load-more-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#loadMoreBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Audiowide;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#loadMoreBtn:hover {
+  background-color: #3367d6;
 }
 
 /* Estilização da seção contatos */
