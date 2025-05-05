@@ -15,19 +15,13 @@ body {
   z-index: -1;
 }
 
-
 header {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 10px 15px; 
+  padding: 10px 15px;
   position: relative;
-}
-
-.evento-logo {
-  height: 30px; 
-  margin-right: 10px;
 }
 
 .evento-nome {
@@ -57,7 +51,7 @@ header {
 .evento-local {
   font-size: 14px;
   font-weight: bold;
-  color: #98fb98; 
+  color: #98fb98;
 }
 
 /* Estilização do Menu Hamburguer */
@@ -70,7 +64,7 @@ header {
   color: white;
   font-size: 24px;
   cursor: pointer;
-  display: block; 
+  display: block;
 }
 
 .close__btn {
@@ -133,10 +127,10 @@ header {
 /* Estilização da secção programação */
 
 .programacao {
-  max-width: 90%; 
+  max-width: 90%;
   margin: 20px auto;
 
-  padding: 15px; 
+  padding: 15px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
@@ -149,15 +143,15 @@ header {
   padding: 10px;
   border-radius: 8px;
   flex-direction: row;
-  text-align: left; 
+  text-align: left;
 }
 
 .palestrante-card img {
   width: 80px;
-  height: 80px; 
+  height: 80px;
   border-radius: 50%;
-  margin-right: 10px; 
-  padding: 5px; 
+  margin-right: 10px;
+  padding: 5px;
 }
 
 .descricao {
@@ -170,25 +164,25 @@ header {
   padding: 5px 10px;
   border-radius: 5px;
   width: auto;
-  display: inline-block; 
+  display: inline-block;
   text-align: center;
-  margin-top: 5px; 
+  margin-top: 5px;
 }
 
 footer {
   text-align: center;
-  padding: 10px; 
-  
+  padding: 10px;
+
   color: white;
   margin-top: 20px;
 }
 
 footer p {
-  font-size: large; 
+  font-size: large;
 }
 
 footer img {
-  width: 150px; 
+  width: 150px;
 }
 
 /* Estilização da animação .fade-in-element */
@@ -218,7 +212,10 @@ footer img {
   }
 
   .menu__btn {
-    display: block; 
+    font-size: 20px;
+  }
+  .close__btn {
+    font-size: 20px;
   }
 
   .palestrante-card {
@@ -228,20 +225,20 @@ footer img {
 
   .palestrante-card img {
     margin-bottom: 10px;
-    margin-right: 0; 
+    margin-right: 0;
   }
 
   .horario {
-    width: 100%; 
+    width: 100%;
     margin-top: 10px;
   }
 
   footer p {
-    font-size: 1em; 
+    font-size: 1em;
   }
 
   footer img {
-    width: 100px; 
+    width: 100px;
   }
 }
 
@@ -265,7 +262,7 @@ footer img {
   }
 
   .horario {
-    width: 120px; 
+    width: 120px;
   }
 
   footer p {
