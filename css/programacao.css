@@ -24,11 +24,12 @@ header {
   position: relative;
 }
 
-.evento-nome {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
+.evento-logo {
+  height: 30px;
+  margin-right: 10px;
 }
+
+
 
 .logo-container {
   display: flex;
@@ -46,6 +47,7 @@ header {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  margin: 0;
 }
 
 .evento-local {
@@ -214,6 +216,7 @@ footer img {
   .menu__btn {
     font-size: 20px;
   }
+  
   .close__btn {
     font-size: 20px;
   }
