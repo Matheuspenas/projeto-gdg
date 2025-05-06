@@ -8,18 +8,42 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 
 ## 🔧 Funcionalidades da Página
 
-- `Funcionalidade 1`: Exibição de um banner com o nome e a data do evento. Descrição curta do evento.
-- `Funcionalidade 2`: Botão de chamada para ação, como "Inscreva-se agora".
-- `Funcionalidade 3`: Links para outras partes do site.
-- `Funcionalidade 4`: Atividades do evento com horários e descrições.
-- `Funcionalidade 5`: Cards com palestrantes.
-- `Funcionalidade 6`: Mapa integrado com o local do evento e endereço.
-- `Funcionalidade 7`: Layout responsivo para desktop, tablet e mobile.
-- `Funcionalidade 8`: Menu hamburguer para dispositivos móveis.
-- `Funcionalidade 9`: Galeria de fotos com navegação.
-- `Funcionalidade 10`: Formulário de inscrição com validação.
-- `Funcionalidade 11`: Mensagem de confirmação após inscrição.
-- `Funcionalidade 12`: Efeitos interativos e animações em botões e links.
+### 📄 Página Inicial
+- Exibição de um banner com o nome e a data do evento.
+- Descrição curta do evento.
+- Botão de chamada para ação, como "Inscreva-se agora".
+- Grid de cards com eventos anteriores e botão "Ver mais".
+- Ícones de redes sociais interativos.
+- Footer com seção de patrocinadores.
+- Animação de fundo com efeito Vanta.js.
+- Animações fade-in ao rolar a página.
+- Botão flutuante com animação pulse.
+- Menu hamburguer responsivo (presente em todas as páginas).
+
+### 🗓 Página de Programação
+- Exibição da agenda com temas, horários e descrição das atividades.
+
+### 🎤 Página de Palestrantes
+- Cards com fotos, nomes, cargos e mini currículos dos palestrantes.
+- Layout adaptável para mobile e desktop.
+
+### 📍 Página de Localização
+- Exibição de endereço completo.
+- Integração com mapa (embed do Google Maps).
+- Informações sobre o local no campus e instruções de chegada.
+
+### 📝 Página de Inscrição
+- Formulário para se inscrever no evento.
+- Validação de campos obrigatórios.
+- Armazenamento das respostas em planilha Google Sheets.
+- Mensagem de confirmação após envio bem-sucedido.
+
+---
+
+## 📱 Responsividade Geral
+- Layout 100% responsivo para desktop, tablet e mobile.
+- Menu hamburguer funcional em todas as resoluções.
+
 
 ## 🔼 Público-Alvo
 
@@ -58,10 +82,10 @@ As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesum
 ## 🖋️ Wireframes e Esboços
 
 - Página Inicial: Informativa sobre o evento.
-- Página de Programação: Informa sobre os temas, horarios, palestrantes, intervalos(se houver) no dia do evento.
+- Página de Programação: Informa sobre os temas, horários, palestrantes, intervalos (se houver) no dia do evento.
 - Página de Palestrantes: Currículos e cargos dos palestrantes.
-- Página de Inscrição: Para efetuar a inscrição e receber certificado(se houver emissão).
-- Página de Localização: Contém informações sobre o local, horario e em qual parte do campus será realizado o evento, além de conter um mapa integrado levando diretamente a localização.
+- Página de Inscrição: Para efetuar a inscrição e receber certificado (se houver emissão).
+- Página de Localização: Contém informações sobre o local, horário e em qual parte do campus será realizado o evento, além de conter um mapa integrado levando diretamente à localização.
 
 ## 🔠 Mapa Mental
 
@@ -116,8 +140,14 @@ Logo após o header, é exibida uma **seção com data, horário, nome e localiz
 Um botão grande e chamativo com chamada à ação leva diretamente para a página do **formulário de inscrição**.
 
 🎥 **GIF do botão de inscrição:**  
-`(adicione aqui)`  
-![GIF Botão Inscrição](./Images/gif-botao-inscricao.gif)
+
+## Versão Desktop
+
+![Versão Desktop](./Gifs/Gravação%20de%20tela%20do%20botão%20de%20inscrição%20da%20página%20inicial(desktop).gif)
+
+## Versão Mobile
+
+![Versão Mobile](./Gifs/Gravação%20de%20tela%20do%20botão%20de%20inscrição%20da%20página%20inicial%20(mobile).gif)
 
 ---
 
@@ -133,17 +163,18 @@ Ao rolar a página, surge um **botão pequeno no canto inferior direito** com um
 
 ---
 
-## 🖼️ Galeria de Fotos Interativa
+## 🧾 Cards dos Eventos Anteriores (com botão "Ver mais")
 
-Uma **galeria automática de fotos** do evento anterior:
+A antiga galeria foi substituída por um **grid de cards responsivos** que exibem eventos anteriores. Cada card apresenta imagem, título e breve descrição do evento.
 
-- Avança sozinha a cada 5 segundos.
-- Pode ser controlada por setas ou deslizar com o dedo (touch).
-- Possui **bolinhas abaixo** indicando a posição atual, que também funcionam como navegação.
+- Por padrão, **4 cards são exibidos inicialmente**;
+- Ao clicar no botão **"Ver mais"**, são carregados mais 4 eventos;
+- A funcionalidade evita rolagens longas e mantém a organização visual;
+- Totalmente responsivo e com animações suaves para exibição dos novos cards.
 
-🎥 **GIF da galeria de fotos:**  
+🎥 **GIF dos cards com botão "Ver mais":**  
 `(adicione aqui)`  
-![GIF Galeria](./Images/gif-galeria.gif)
+![GIF Cards Evento](./Images/gif-cards-evento.gif)
 
 ---
 
@@ -282,8 +313,14 @@ Exibido centralizado e em destaque com `box-shadow`, dando aparência de estar a
   - Os dados são verificados e enviados para uma **planilha no Google Sheets**, criada exclusivamente para armazenar as inscrições com segurança (ex: para emissão de certificados de participação).
 
 🎥 GIF do formulário e da barra de carregamento:
-(adicione aqui)
 
+## Versão Desktop
+
+![Versão Desktop](./Gifs/Gravação%20de%20tela%20do%20formulário%20de%20inscrição(desktop).gif)
+
+## Versão Mobile
+
+![Versão Mobile](./Gifs/Gravação%20de%20tela%20do%20formulário%20de%20inscrição(mobile).gif)
 ---
 
 ### ✉️ Mensagens de Retorno
@@ -324,7 +361,7 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 ## Versão Desktop
 
-![Versão Desktop](<./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar(desktop).gif>)
+![Versão Desktop](./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar(desktop).gif)
 
 ## Versão Mobile
 
