@@ -245,11 +245,11 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
 
 ## Versão Desktop
 
-![Versão Desktop](<./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif>)
+![Versão Desktop](./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif)
 
 ## Versão Mobile
 
-![Versão Mobile](<./Gifs/Gravação%20de%20tela%20da%20Página%20de%20Programação(mobile).gif>)
+![Versão Mobile](./Gifs/Gravação%20de%20tela%20da%20Página%20de%20Programação(mobile).gif)
 
 ---
 
@@ -275,11 +275,11 @@ Apresenta os palestrantes do evento com destaque visual e informações relevant
 
 ## Versão Desktop
 
-![Versão Desktop](<./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(desktop).gif>)
+![Versão Desktop](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(desktop).gif)
 
 ## Versão Mobile
 
-![Versão Mobile](<./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(mobile).gif>)
+![Versão Mobile](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(mobile).gif)
 
 ---
 
@@ -349,11 +349,11 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 ## Versão Desktop
 
-![Versão Desktop](<./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(desktop).gif>)
+![Versão Desktop](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(desktop).gif)
 
 ## Versão Mobile
 
-![Versão Mobile](<./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(mobile).gif>)
+![Versão Mobile](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(mobile).gif)
 
 🎉 Quando o contador chega a zero (horário de início do evento), ele é **automaticamente substituído** por uma mensagem:
 
