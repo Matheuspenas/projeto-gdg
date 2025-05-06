@@ -64,6 +64,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   background: linear-gradient(to right, blue, yellow, red, green);
+  background-clip: text;  /* Adicionado para melhorar a compatibilidade com navegadores que não usam prefixo.*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
