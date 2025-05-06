@@ -330,7 +330,10 @@ footer img {
   }
 
   .menu__btn {
-    display: block;
+    font-size: 20px;
+  }
+  .close__btn {
+    font-size: 20px;
   }
 
   #timer {
