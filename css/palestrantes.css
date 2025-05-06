@@ -55,7 +55,7 @@ header {
 .evento-local {
   font-size: 14px;
   font-weight: bold;
-  color:#ffa500;
+  color: #ffa500;
 }
 
 /* Estilização do Menu Hamburguer */
@@ -219,7 +219,7 @@ header {
 
 .modal-content {
   background-color: #1f1f1f;
-  margin: 15% auto;
+  margin: 10% auto;
   padding: 20px;
   border-radius: 10px;
   width: 90%;
