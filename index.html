@@ -19,15 +19,24 @@
   </head>
 
   <body>
-    <div id="vanta-net"></div>
+    <div id="vanta-net" class="fade-in-element"></div>
     <header>
-      <button class="menu__btn" onclick="toggleMenu()">&#9776;</button>
-      <img
-        src="./Images/Logo gdg.png"
-        alt="Logo do Evento"
-        class="evento-logo"
-      />
-      <h1 class="evento-nome">Google Developer Groups</h1>
+      <button class="menu__btn fade-in-element" onclick="toggleMenu()">
+        &#9776;
+      </button>
+      <div id="notificacao" class="notificacao"></div>
+
+      <div class="logo-container fade-in-element">
+        <img
+          src="./Images/Logo GDG azul.png"
+          alt="Logo do Evento"
+          class="evento-logo"
+        />
+        <div class="logo-texto">
+          <span class="evento-nome">Google Developer Groups</span>
+          <span class="evento-local">Londrina</span>
+        </div>
+      </div>
     </header>
 
     <!-- Menu Hamburguer -->
@@ -58,12 +67,17 @@
             ><i class="fa-solid fa-map-marker-alt"></i> Localização</a
           >
         </li>
+        <li>
+          <a href="https://gdg.community.dev/gdg-londrina/" target="_blank">
+            <i class="fa-solid fa-globe"></i> Site GDG Londrina
+          </a>
+        </li>
       </ul>
     </nav>
 
     <main>
-      <section class="evento__info">
-        <div class="evento__texto">
+      <section class="evento__info fade-in-element">
+        <div class="evento__textoc fade-in-element">
           <h2>Evento Tech Londrina</h2>
           <h3>24/05/2025</h3>
           <p>Às 08:00h</p>
@@ -72,7 +86,7 @@
         </div>
       </section>
 
-      <section class="sobre">
+      <section class="sobre fade-in-element">
         <div class="sobre__texto">
           <h2>Sobre o Evento</h2>
           <p>
@@ -92,18 +106,202 @@
           </p>
         </div>
       </section>
-
-      <section class="inscrever">
+      <section class="inscrever fade-in-element">
         <a href="./inscrever.html">
-          <button class="inscricao__btn">Inscreva-se agora</button>
+          <button class="inscricao__btn">
+            <span>Inscreva-se agora!</span>
+          </button>
         </a>
       </section>
 
-      <section class="contatos">
+      <!-- Botão bolha de atenção -->
+      <button class="botao__bolha" onclick="destacarMenu()">
+        Veja o que preparamos!
+      </button>
+
+      <!-- Seção de eventos anteriores -->
+      <h2 class="fade-in-element" id="evento-anterior">
+        Eventos Anteriores do GDG Londrina
+      </h2>
+      <div class="event-grid fade-in-element">
+        <!-- GDG Londrina Meetup - Abril/2025 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="Meetup Abril 2025"
+          />
+          <div class="event-date">16 de abr. de 2025</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-abril2025-networking-edition/"
+            target="_blank"
+            >GDG Londrina Meetup - Abril/2025</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Março/2025 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="Meetup Março 2025"
+          />
+          <div class="event-date">13 de mar. de 2025</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-devpr-na-estrada-marco2025/"
+            target="_blank"
+            >Meetup + DevPR na Estrada</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Fevereiro/2025 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="Meetup Fevereiro 2025"
+          />
+          <div class="event-date">22 de fev. de 2025</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-fevereiro2025/"
+            target="_blank"
+            >Meetup Fevereiro/2025</a
+          >
+        </div>
+
+        <!-- GDG no FIIL 2024 -->
+        <div class="event-card fade-in-element">
+          <img src="./Images/fill_2024_KszZHKm.webp" alt="FIIL 2024" />
+          <div class="event-date">7 de dez. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-no-fiil-2024/"
+            target="_blank"
+            >GDG no FIIL 2024</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Novembro/2024 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="Meetup Novembro 2024"
+          />
+          <div class="event-date">21 de nov. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-novembro2024-networking-edition/"
+            target="_blank"
+            >Meetup - Nov/2024</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Outubro/2024 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="Meetup Outubro 2024"
+          />
+          <div class="event-date">26 de out. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-outubro2024/"
+            target="_blank"
+            >Meetup Outubro/2024</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Setembro/2024 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="Meetup Setembro 2024"
+          />
+          <div class="event-date">26 de set. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-setembro2024/"
+            target="_blank"
+            >Meetup Setembro/2024</a
+          >
+        </div>
+
+        <!-- ECOTICNOVA 2024 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/eco-tic-nova-avatar_g5bVfbw.webp"
+            alt="ECOTICNOVA 2024"
+          />
+          <div class="event-date">27 de ago. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-ecoticnova-2024/"
+            target="_blank"
+            >ECOTICNOVA 2024</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Julho/2024 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="GDG Londrina Meetup Julho/2024"
+          />
+          <div class="event-date">25 de jul. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-julho2024-networking-edition/"
+            target="_blank"
+            >GDG Londrina Meetup Julho/2024 - Networking Edition</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Junho/2024 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="GDG Londrina Meetup Junho/2024"
+          />
+          <div class="event-date">29 de jun. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-junho2024/"
+            target="_blank"
+            >GDG Londrina Meetup Junho/2024</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Maio/2024 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="GDG Londrina Meetup Maio/2024"
+          />
+          <div class="event-date">23 de mai. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-maio2024/"
+            target="_blank"
+            >GDG Londrina Meetup Maio/2024</a
+          >
+        </div>
+
+        <!-- GDG Londrina Meetup - Abril/2024 -->
+        <div class="event-card fade-in-element">
+          <img
+            src="./Images/GDG Londrina Meetup - Thumb.webp"
+            alt="GDG Londrina Meetup Abril/2024"
+          />
+          <div class="event-date">25 de abr. de 2024</div>
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-londrina-presents-gdg-londrina-meetup-abril2024/"
+            target="_blank"
+            >GDG Londrina Meetup Abril/2024</a
+          >
+        </div>
+      </div>
+
+      <!-- Botão para carregar mais eventos -->
+      <div class="load-more-wrapper fade-in-element">
+        <button id="loadMoreBtn">Ver mais eventos</button>
+      </div>
+
+      <!-- Seção de contatos  -->
+
+      <section class="contatos fade-in-element">
         <a
           href="https://www.twitter.com/gdglondrina"
           target="_blank"
-          class="social__btn"
+          class="social__btn twitter"
         >
           <i class="fa-brands fa-x-twitter"></i>
         </a>
@@ -113,7 +311,7 @@
         <a
           href="https://www.instagram.com/gdglondrina"
           target="_blank"
-          class="social__btn"
+          class="social__btn instagram"
         >
           <i class="fab fa-instagram"></i>
         </a>
@@ -123,7 +321,7 @@
         <a
           href="https://www.linkedin.com/company/gdg-londrina/"
           target="_blank"
-          class="social__btn"
+          class="social__btn linkedin"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
@@ -133,21 +331,27 @@
         <a
           href="https://www.youtube.com/@gdglondrina"
           target="_blank"
-          class="social__btn"
+          class="social__btn youtube"
         >
           <i class="fab fa-youtube"></i>
         </a>
 
-        <!-- Email -->
+        <!-- Github -->
 
-        <a href="mailto:seuemail@gmail.com" class="social__btn">
-          <i class="fas fa-envelope"></i>
+        <a
+          href="https://github.com/gdglondrina/"
+          target="_blank"
+          class="social__btn github"
+        >
+          <i class="fa fa-github"></i>
         </a>
       </section>
 
-      <footer>
+      <footer class="fade-in-element">
         <p>Apoio</p>
-        <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
+        <a
+          href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
+          target="_blank"
           ><img
             id="logo-unicesumar"
             src="https://www.unicesumar.edu.br/wp-content/themes/unicesumar/templates/assets_home/img/logo.webp"

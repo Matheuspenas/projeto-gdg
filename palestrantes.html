@@ -19,14 +19,23 @@
   </head>
 
   <body>
+    <div id="vanta-net" class="fade-in-element"></div>
     <header>
-      <button class="menu__btn" onclick="toggleMenu()">&#9776;</button>
-      <img
-        src="./Images/Logo gdg.png"
-        alt="Logo do Evento"
-        class="evento-logo"
-      />
-      <h1 class="evento-nome">Google Developer Groups</h1>
+      <button class="menu__btn fade-in-element" onclick="toggleMenu()">
+        &#9776;
+      </button>
+
+      <div class="logo-container fade-in-element">
+        <img
+          src="./Images/Logo GDG laranja.webp"
+          alt="Logo do Evento"
+          class="evento-logo"
+        />
+        <div class="logo-texto">
+          <span class="evento-nome">Google Developer Groups</span>
+          <span class="evento-local">Londrina</span>
+        </div>
+      </div>
     </header>
 
     <!-- Menu Hamburguer -->
@@ -59,12 +68,17 @@
             ><i class="fa-solid fa-map-marker-alt"></i> Localização</a
           >
         </li>
+        <li>
+          <a href="https://gdg.community.dev/gdg-londrina/" target="_blank">
+            <i class="fa-solid fa-globe"></i> Site GDG Londrina
+          </a>
+        </li>
       </ul>
     </nav>
 
     <!-- Seção sobre os palestrantes -->
 
-    <main class="palestrantes-container">
+    <main class="palestrantes-container fade-in-element">
       <h1>Palestrantes</h1>
       <div class="palestrantes-grid">
         <div class="card">
@@ -75,7 +89,7 @@
           <h3>João Silva</h3>
           <p>Especialista em IA</p>
           <button class="saiba-mais" onclick="abrirModal('modal1')">
-            Saiba Mais
+            Ver Perfil
           </button>
         </div>
 
@@ -89,7 +103,7 @@
           <h3>Maria Oliveira</h3>
           <p>Desenvolvedora Full Stack</p>
           <button class="saiba-mais" onclick="abrirModal('modal2')">
-            Saiba Mais
+            Ver Perfil
           </button>
         </div>
 
@@ -103,9 +117,83 @@
           <h3>Mario Silva</h3>
           <p>Desenvolvedor Front-End</p>
           <button class="saiba-mais" onclick="abrirModal('modal3')">
-            Saiba Mais
+            Ver Perfil
           </button>
         </div>
+<<<<<<< HEAD
+=======
+
+        <!-- Palestrante 4 -->
+
+        <div class="card">
+          <img
+            src="https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/RL7AKGPE5ZFQNLEU3M2KL6MMJE.jpg?smart=true&auth=6c2b9ed0e7c951870778adfe81a296a6da1e4d1c46ad48233d4450d7918ea581&width=1080&height=720"
+            alt="Palestrante 4"
+          />
+          <h3>Thiago Ferreira</h3>
+          <p>Professor de Desenvolvimento Web</p>
+          <button class="saiba-mais" onclick="abrirModal('modal4')">
+            Ver Perfil
+          </button>
+        </div>
+        <!-- Palestrante 5 -->
+
+        <div class="card">
+          <img
+            src="https://secure.gravatar.com/avatar/131ea35cab81aa12674b2b3358734e21?s=160&d=mm&r=g"
+            alt="Palestrante 5"
+          />
+          <h3>Carlos Antonio</h3>
+          <p>Especialista em back-end</p>
+          <button class="saiba-mais" onclick="abrirModal('modal5')">
+            Ver Perfil
+          </button>
+        </div>
+
+        <!-- Palestrante 6 -->
+
+        <div class="card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWSD2ZCyHUw0PvHt3EL8zx95yl6Pop5q8vA&s"
+            alt="Palestrante 6"
+          />
+          <h3>Fernando Henrique</h3>
+          <p>Desenvolvedor Front-End na empresa Jabur Informática S.A.</p>
+          <button class="saiba-mais" onclick="abrirModal('modal6')">
+            Ver Perfil
+          </button>
+        </div>
+
+        <!-- Palestrante 7 -->
+
+        <div class="card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1688891564708-9b2247085923?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww"
+            alt="Palestrante 7"
+          />
+          <h3>Roberto Carlos</h3>
+          <p>Professor de Desenvolvimento Web na Faculdade Positivo Londrina</p>
+          <button class="saiba-mais" onclick="abrirModal('modal7')">
+            Ver Perfil
+          </button>
+        </div>
+
+        <!-- Palestrante 8 -->
+
+        <div class="card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTk19_zKkiLYUHA6mJhbjpXSXd96T3e1G1bg&s"
+            alt="Palestrante 8"
+          />
+          <h3>Marcelo Augusto</h3>
+          <p>
+            Especialista em Back-End na empresa Eiwa Brasil Assessoria Agrícola
+          </p>
+          <button class="saiba-mais" onclick="abrirModal('modal8')">
+            Ver Perfil
+          </button>
+        </div>
+>>>>>>> main
       </div>
     </main>
 
@@ -167,16 +255,139 @@
       </div>
     </div>
 
+<<<<<<< HEAD
     <footer>
       <p>Apoio</p>
     </div>
       <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
+=======
+    <!-- Modal Palestrante 4 -->
+
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="fecharModal('modal4')">&times;</span>
+        <img
+          src="https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/RL7AKGPE5ZFQNLEU3M2KL6MMJE.jpg?smart=true&auth=6c2b9ed0e7c951870778adfe81a296a6da1e4d1c46ad48233d4450d7918ea581&width=1080&height=720"
+          alt="Thiago Ferreira"
+          class="modal-img"
+        />
+        <h3>Thiago Ferreira</h3>
+        <p>
+          Professor de Desenvolvimento Web na UniCesumar desde 2015, com mais de
+          10 anos de experiência em desenvolvimento de software.
+        </p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Palestrante 5 -->
+
+    <div id="modal5" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="fecharModal('modal5')">&times;</span>
+        <img
+          src="https://secure.gravatar.com/avatar/131ea35cab81aa12674b2b3358734e21?s=160&d=mm&r=g"
+          alt="Carlos Antonio"
+          class="modal-img"
+        />
+        <h3>Carlos Antonio</h3>
+        <p>
+          Especialista em back-end com vasta experiência na criação de soluções
+          escaláveis e eficientes para diversas plataformas.
+        </p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Palestrante 6 -->
+
+    <div id="modal6" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="fecharModal('modal6')">&times;</span>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWSD2ZCyHUw0PvHt3EL8zx95yl6Pop5q8vA&s"
+          alt="Fernando Henrique"
+          class="modal-img"
+        />
+        <h3>Fernando Henrique</h3>
+        <p>
+          Desenvolvedor Front-End na empresa Jabur Informática S.A. com
+          experiência em desenvolvimento de aplicações web com React, Vue e
+          Angular. Também tem conhecimento em CSS, HTML e Javascript.
+        </p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Palestrante 7 -->
+
+    <div id="modal7" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="fecharModal('modal7')">&times;</span>
+        <img
+          src="https://plus.unsplash.com/premium_photo-1688891564708-9b2247085923?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww"
+          alt="Roberto Carlos"
+          class="modal-img"
+        />
+        <h3>Roberto Carlos</h3>
+        <p>
+          Professor de Desenvolvimento Web na Faculdade Positivo Londrina desde
+          2015, com mais de 10 anos de experiência em desenvolvimento de
+          software. Angular. Também tem conhecimento em CSS, HTML e Javascript.
+        </p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Palestrante 8 -->
+
+    <div id="modal8" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="fecharModal('modal8')">&times;</span>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTk19_zKkiLYUHA6mJhbjpXSXd96T3e1G1bg&s"
+          alt="Marcelo Augusto"
+          class="modal-img"
+        />
+        <h3>Marceloq Augusto</h3>
+        <p>
+          Desenvolvedor Front-End na empresa Jabur Informática S.A. desde 2018,
+          atuando em projetos de desenvolvimento de aplicações web com React,
+          Vue e Angular. Tem experiência em CSS, HTML e Javascript.
+        </p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="fade-in-element">
+      <p>Apoio</p>
+      <a
+        href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
+        target="_blank"
+>>>>>>> main
         ><img
           src="https://www.unicesumar.edu.br/wp-content/themes/unicesumar/templates/assets_home/img/logo.webp"
           alt="UniCesumar"
       /></a>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
     <script src="./JavaScript/palestrantes.js"></script>
   </body>
 </html>

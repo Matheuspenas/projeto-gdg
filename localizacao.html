@@ -25,14 +25,23 @@
   </head>
 
   <body>
+    <div id="vanta-net" class="fade-in-element"></div>
     <header>
-      <button class="menu__btn" onclick="toggleMenu()">&#9776;</button>
-      <img
-        src="./Images/Logo gdg.png"
-        alt="Logo do Evento"
-        class="evento-logo"
-      />
-      <h1 class="evento-nome">Google Developer Groups</h1>
+      <button class="menu__btn fade-in-element" onclick="toggleMenu()">
+        &#9776;
+      </button>
+
+      <div class="logo-container fade-in-element">
+        <img
+          src="./Images/Logo GDG Vermelho.webp"
+          alt="Logo do Evento"
+          class="evento-logo"
+        />
+        <div class="logo-texto">
+          <span class="evento-nome">Google Developer Groups</span>
+          <span class="evento-local">Londrina</span>
+        </div>
+      </div>
     </header>
 
     <!-- Menu Hamburguer -->
@@ -65,15 +74,20 @@
             ><i class="fa-solid fa-map-marker-alt"></i> Localização</a
           >
         </li>
+        <li>
+          <a href="https://gdg.community.dev/gdg-londrina/" target="_blank">
+            <i class="fa-solid fa-globe"></i> Site GDG Londrina
+          </a>
+        </li>
       </ul>
     </nav>
 
     <main>
-      <section class="localizacao">
+      <section class="localizacao fade-in-element">
         <h1>Localização do Evento</h1>
         <p>
-          O evento será realizado no Centro de Convenções XYZ, no coração da
-          cidade.
+          O evento será realizado no <strong>auditório da Unicesumar</strong>,
+          no segundo andar do campus.
         </p>
         <p>
           <strong>Endereço:</strong> Av. Santa Mônica, 450 - Franca, Londrina -
@@ -85,7 +99,7 @@
 
         <!-- Google Maps Embed -->
 
-        <div class="mapa__container">
+        <div class="mapa__container fade-in-element">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.33270642721!2d-51.143339788799665!3d-23.303684452089044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb437a3d1d44af%3A0x9c9f46adfc62d1eb!2sUniCesumar%20-%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1743099699612!5m2!1spt-BR!2sbr"
             width="600"
@@ -98,11 +112,13 @@
         </div>
       </section>
 
-      <section class="contatos">
+      <!-- Seção de contatos  -->
+
+      <section class="contatos fade-in-element">
         <a
           href="https://www.twitter.com/gdglondrina"
           target="_blank"
-          class="social__btn"
+          class="social__btn twitter"
         >
           <i class="fa-brands fa-x-twitter"></i>
         </a>
@@ -112,7 +128,7 @@
         <a
           href="https://www.instagram.com/gdglondrina"
           target="_blank"
-          class="social__btn"
+          class="social__btn instagram"
         >
           <i class="fab fa-instagram"></i>
         </a>
@@ -122,7 +138,7 @@
         <a
           href="https://www.linkedin.com/company/gdg-londrina/"
           target="_blank"
-          class="social__btn"
+          class="social__btn linkedin"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
@@ -132,21 +148,27 @@
         <a
           href="https://www.youtube.com/@gdglondrina"
           target="_blank"
-          class="social__btn"
+          class="social__btn youtube"
         >
           <i class="fab fa-youtube"></i>
         </a>
 
-        <!-- Email -->
+        <!-- GitHub -->
 
-        <a href="mailto:seuemail@gmail.com" class="social__btn">
-          <i class="fas fa-envelope"></i>
+        <a
+          href="https://github.com/gdglondrina/"
+          target="_blank"
+          class="social__btn github"
+        >
+          <i class="fa fa-github"></i>
         </a>
       </section>
 
-      <footer>
+      <footer class="fade-in-element">
         <p>Apoio</p>
-        <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
+        <a
+          href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
+          target="_blank"
           ><img
             src="https://www.unicesumar.edu.br/wp-content/themes/unicesumar/templates/assets_home/img/logo.webp"
             alt="UniCesumar"
@@ -154,6 +176,8 @@
       </footer>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
     <script src="./JavaScript/localizacao.js"></script>
   </body>
 </html>

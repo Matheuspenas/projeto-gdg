@@ -42,6 +42,33 @@ header {
   margin: 0;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-texto {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.evento-nome {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.evento-local {
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(to right, blue, yellow, red, green);
+  background-clip: text;  /* Adicionado para melhorar a compatibilidade com navegadores que não usam prefixo.*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Estilização do Menu Hamburguer */
 
 .menu__btn {
@@ -175,9 +202,16 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
+<<<<<<< HEAD
 .inscricao__btn:hover {
   background-color: #001b44;
+=======
+.inscricao__btn:active {
+  transform: scale(0.95);
+  transition: transform 0.2s ease;
+>>>>>>> main
 }
+
 /* Estilização da contagem regressiva para o evento */
 
 #countdown {
@@ -239,6 +273,20 @@ footer img {
   width: 200px;
 }
 
+<<<<<<< HEAD
+=======
+/* Estilização da animação .fade-in-element */
+
+.fade-in-element {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.fade-in-element.visible {
+  opacity: 1;
+}
+
+>>>>>>> main
 /* Barra de carregamento  após preencher o formulário */
 
 #loader {
@@ -291,7 +339,10 @@ footer img {
   }
 
   .menu__btn {
-    display: block;
+    font-size: 20px;
+  }
+  .close__btn {
+    font-size: 20px;
   }
 
   #timer {

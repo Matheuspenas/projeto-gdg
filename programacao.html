@@ -24,16 +24,23 @@
   </head>
 
   <body>
+    <div id="vanta-net" class="fade-in-element"></div>
     <header>
-      <button class="menu__btn" onclick="toggleMenu()">&#9776;</button>
-      <img
-        src="./Images/Logo gdg.png"
-        alt="Logo do Evento"
-        class="evento-logo fade-in-element hidden"
-      />
-      <h1 class="evento-nome fade-in-element hidden">
-        Google Developer Groups
-      </h1>
+      <button class="menu__btn fade-in-element" onclick="toggleMenu()">
+        &#9776;
+      </button>
+
+      <div class="logo-container fade-in-element">
+        <img
+          src="./Images/Logo GDG verde.png"
+          alt="Logo do Evento"
+          class="evento-logo"
+        />
+        <div class="logo-texto">
+          <span class="evento-nome">Google Developer Groups</span>
+          <span class="evento-local">Londrina</span>
+        </div>
+      </div>
     </header>
 
     <!-- Menu Hamburguer -->
@@ -66,6 +73,11 @@
             ><i class="fa-solid fa-map-marker-alt"></i> Localização</a
           >
         </li>
+        <li>
+          <a href="https://gdg.community.dev/gdg-londrina/" target="_blank">
+            <i class="fa-solid fa-globe"></i> Site GDG Londrina
+          </a>
+        </li>
       </ul>
     </nav>
 
@@ -79,7 +91,7 @@
             alt="Palestrante 1"
           />
           <div class="descricao">
-            <h2>Nome do Palestrante</h2>
+            <h2>João Silva</h2>
             <p>Tema da palestra: Introdução ao Desenvolvimento Web Moderno</p>
           </div>
           <div class="horario">
@@ -223,13 +235,17 @@
 
     <footer class="fade-in-element hidden">
       <p>Apoio</p>
-      <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
+      <a
+        href="https://venhaparaunicesumar.com.br/graduacao?utm_cont"
+        target="_blank"
         ><img
           src="https://www.unicesumar.edu.br/wp-content/themes/unicesumar/templates/assets_home/img/logo.webp"
           alt="UniCesumar"
       /></a>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
     <script src="./JavaScript/programacao.js"></script>
   </body>
 </html>

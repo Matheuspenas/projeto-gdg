@@ -1,11 +1,46 @@
-// Função para abrir e fechar o menu hambúrguer
+// Script para funcionamento no menu hamburguer
+
 function toggleMenu() {
-  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("sidebar").classList.add("active");
 }
 
 function closeMenu() {
   document.getElementById("sidebar").classList.remove("active");
 }
+
+// Corrigido: busca pelo botão com a classe em vez do ID
+document.addEventListener("click", function (event) {
+  const sidebar = document.getElementById("sidebar");
+  const hamburger = document.querySelector(".menu__btn");
+
+  const clickedOutsideSidebar = !sidebar.contains(event.target);
+  const clickedOutsideHamburger = !hamburger.contains(event.target);
+
+  if (sidebar.classList.contains("active") && clickedOutsideSidebar && clickedOutsideHamburger) {
+    closeMenu();
+  }
+});
+
+
+
+// Animação fade in da página
+
+document.addEventListener('DOMContentLoaded', () => {
+  const elements = document.querySelectorAll('.fade-in-element');
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // remove o observador depois que anima
+      }
+    });
+  }, {
+    threshold: 0.1 // ativa quando 10% do elemento aparece
+  });
+
+  elements.forEach(el => observer.observe(el));
+});
 
 // Script paraa armazenamento dos dados de inscrição
 document
@@ -127,11 +162,17 @@ const columns = canvas.width / fontSize;
 const drops = Array.from({ length: columns }, () => 1);
 
 // Função de animação
+const colors = ["#007bff", "#28a745", "#fd7e14", "#dc3545"]; // azul, verde, laranja, vermelho
+let colorIndex = 0;
+let colorChangeInterval = 30; // muda de cor a cada 30 frames
+let frameCount = 0;
+
 function draw() {
   ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  ctx.fillStyle = "#0f0";
+  // Atualiza a cor atual com base no índice
+  ctx.fillStyle = colors[colorIndex];
   ctx.font = fontSize + "px monospace";
 
   for (let i = 0; i < drops.length; i++) {
@@ -144,7 +185,15 @@ function draw() {
 
     drops[i]++;
   }
+
+  // Incrementa o contador de frames e muda de cor se necessário
+  frameCount++;
+  if (frameCount >= colorChangeInterval) {
+    frameCount = 0;
+    colorIndex = (colorIndex + 1) % colors.length;
+  }
 }
+
 
 // Chama a função draw repetidamente
 setInterval(draw, 33);

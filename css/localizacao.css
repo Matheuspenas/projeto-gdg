@@ -1,13 +1,24 @@
 body {
-  background-image: url(https://inscricoes.unicesumar.edu.br/assets/images/unicesumar-bg-footer.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #121212;
   color: #ffffff;
   font-family: Audiowide;
   margin: 0;
   padding: 0;
+  width: 100%;
+  box-sizing: border-box; /* Adicionado para incluir padding e border no cálculo da largura */
 }
+
+/* Estilização do background da página */
+
+#vanta-net {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 
 /* Estlização do header daa página Header */
 
@@ -16,18 +27,42 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 15px;
+  padding: 10px 15px; /* Ajustado o padding para corresponder */
   position: relative;
 }
 
 .evento-logo {
-  height: 40px;
+  height: 30px; /* Ajustado a altura para corresponder */
   margin-right: 10px;
 }
 
 .evento-nome {
   font-size: 18px;
-  
+
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-texto {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.evento-nome {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.evento-local {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fd5949;
 }
 
 /* Menu Hambúrguer */
@@ -120,16 +155,16 @@ header {
 /* Google Maps */
 
 .mapa__container {
-  width: 100%;
+  width: 95%; /* Ajustado para ocupar a largura disponível em telas menores */
   max-width: 600px;
-  margin: 20px auto;
+  margin: 50px auto;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .mapa__container iframe {
   width: 100%;
-  height: 300px;
+  height: 250px; /* Ajustado a altura para corresponder */
   border: none;
   border-radius: 10px;
 }
@@ -139,27 +174,59 @@ header {
 .contatos {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  padding: 20px;
+  margin: 20px 0;
+  gap: 20px;
+  padding: 25px;
+  flex-wrap: wrap; /* Adicionado para que os botões quebrem em telas menores */
 }
 
 .social__btn {
-  width: 50px;
-  height: 50px;
-  background: #007bff;
+  width: 60px;
+  height: 60px;
+  background: #007bff; /* cor padrão antes do hover */
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease,
+    border 0.3s ease;
+  border: 2px solid transparent;
 }
 
 .social__btn:hover {
-  background: #0056b3;
-  transform: scale(1.3);
+  transform: scale(1.2);
+  border-color: #a3c8f7;
+}
+
+/* Cores ao passar o mouse */
+.social__btn.twitter:hover {
+  background-color: #000;
+}
+
+.social__btn.instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.social__btn.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.social__btn.youtube:hover {
+  background-color: #ff0000;
+}
+
+.social__btn.github:hover {
+  background-color: #181717;
 }
 
 /* Estilização do Footer  */
@@ -167,8 +234,8 @@ header {
 footer {
   text-align: center;
   padding: 15px;
-
   margin-top: 20px;
+  box-sizing: border-box; /* Adicionado para incluir padding no cálculo da largura */
 }
 
 footer a {
@@ -183,25 +250,97 @@ footer p{
 
 footer img {
   width: 200px;
+  max-width: 80%; /* Garante que a imagem não ultrapasse a largura em telas menores */
+  height: auto;
 }
 
+/* Estilização da animação .fade-in-element */
+
+.fade-in-element {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.fade-in-element.visible {
+  opacity: 1;
+}
+
+
+
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   header {
-    flex-direction: row;
     justify-content: center;
     padding: 10px;
+  }
+
+  .evento-nome {
+    font-size: 16px;
+  }
+
+  .menu__btn {
+    font-size: 20px;
+  }
+  .close__btn {
+    font-size: 20px;
+  }
+
+  .mapa__container iframe {
+    height: 200px; /* Ajustado ainda mais para telas menores */
+  }
+
+  .contatos {
+    padding: 15px;
+  }
+
+  .social__btn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: large;
+  }
+
+  footer img {
+    width: 150px;
+  }
+}
+
+/*Resposividade para telas maiores (acima  de 600px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  .evento-nome {
+    font-size: 20px;
   }
 
   .localizacao {
     padding: 15px;
   }
 
-  .mapa-container iframe {
-    height: 250px;
+  .mapa__container iframe {
+    height: 220px; /* Ajustado para telas um pouco maiores */
   }
 
   .contatos {
-    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .social__btn {
+    width: 55px;
+    height: 55px;
+    font-size: 22px;
+  }
+
+  footer p {
+    font-size: 1.5em;
+  }
+
+  footer img {
+    width: 180px;
   }
 }

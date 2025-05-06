@@ -19,15 +19,23 @@
   </head>
 
   <body>
-    <canvas id="matrix"></canvas>
+    <canvas id="matrix" class="fade-in-element"></canvas>
     <header>
-      <button class="menu__btn" onclick="toggleMenu()">&#9776;</button>
-      <img
-        src="./Images/Logo gdg.png"
-        alt="Logo do Evento"
-        class="evento-logo"
-      />
-      <h1 class="evento-nome">Google Developer Groups</h1>
+      <button class="menu__btn fade-in-element" onclick="toggleMenu()">
+        &#9776;
+      </button>
+
+      <div class="logo-container fade-in-element">
+        <img
+          src="./Images/Logo gdg.png"
+          alt="Logo do Evento"
+          class="evento-logo"
+        />
+        <div class="logo-texto">
+          <span class="evento-nome">Google Developer Groups</span>
+          <span class="evento-local">Londrina</span>
+        </div>
+      </div>
     </header>
 
     <!-- Menu Hamburguer -->
@@ -59,13 +67,18 @@
             ><i class="fa-solid fa-map-marker-alt"></i> Localização</a
           >
         </li>
+        <li>
+          <a href="https://gdg.community.dev/gdg-londrina/" target="_blank">
+            <i class="fa-solid fa-globe"></i> Site GDG Londrina
+          </a>
+        </li>
       </ul>
     </nav>
 
     <!-- Menu de inscrição -->
 
     <main>
-      <section class="inscricao__container">
+      <section class="inscricao__container fade-in-element">
         <h1>Inscreva-se</h1>
         <form id="inscricao__form">
           <!-- Nome -->
@@ -116,7 +129,9 @@
             />
           </div>
 
-          <button type="submit" class="inscricao__btn">Inscrever-se</button>
+          <button type="submit" class="inscricao__btn fade-in-element">
+            Inscrever-se
+          </button>
         </form>
         <p id="mensagem" class="mensagem__sucesso" style="display: none"></p>
         <!-- Loader -->
@@ -130,7 +145,7 @@
 
       <!-- Contagem regressiva para o evento -->
 
-      <div id="countdown">
+      <div id="countdown" class="fade-in-element">
         <h1>Faltam Apenas :</h1>
         <div id="timer">
           <div class="time__box">
@@ -162,9 +177,9 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="fade-in-element">
       <p>Apoio</p>
-      <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont">
+      <a href="https://venhaparaunicesumar.com.br/graduacao?utm_cont" target="_blank">
         <img
           src="https://www.unicesumar.edu.br/wp-content/themes/unicesumar/templates/assets_home/img/logo.webp"
           alt="UniCesumar"
