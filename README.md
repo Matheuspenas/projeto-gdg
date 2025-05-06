@@ -144,11 +144,6 @@ Um botão grande e chamativo com chamada à ação leva diretamente para a pági
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20de%20tela%20do%20botão%20de%20inscrição%20da%20página%20inicial(desktop).gif)
-
-## Versão Mobile
-
-![Versão Mobile](./Gifs/Gravação%20de%20tela%20do%20botão%20de%20inscrição%20da%20página%20inicial%20(mobile).gif)
-
 ---
 
 ## 🔴 Botão Flutuante com Animação Pulse
@@ -246,11 +241,6 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif)
-
-## Versão Mobile
-
-![Versão Mobile](./Gifs/Gravação%20de%20tela%20da%20Página%20de%20Programação(mobile).gif)
-
 ---
 
 ## 👩‍🏫 Página de Palestrantes
@@ -276,11 +266,6 @@ Apresenta os palestrantes do evento com destaque visual e informações relevant
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(desktop).gif)
-
-## Versão Mobile
-
-![Versão Mobile](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(mobile).gif)
-
 ---
 
 ## 📝 Página de Inscrição
@@ -317,10 +302,6 @@ Exibido centralizado e em destaque com `box-shadow`, dando aparência de estar a
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20de%20tela%20do%20formulário%20de%20inscrição(desktop).gif)
-
-## Versão Mobile
-
-![Versão Mobile](./Gifs/Gravação%20de%20tela%20do%20formulário%20de%20inscrição(mobile).gif)
 ---
 
 ### ✉️ Mensagens de Retorno
@@ -350,11 +331,6 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(desktop).gif)
-
-## Versão Mobile
-
-![Versão Mobile](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(mobile).gif)
-
 🎉 Quando o contador chega a zero (horário de início do evento), ele é **automaticamente substituído** por uma mensagem:
 
 > **"O evento começou!"**
@@ -362,11 +338,6 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar(desktop).gif)
-
-## Versão Mobile
-
-![Versão Mobile](./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar.gif)
-
 ---
 
 ## 📍 Página de Localização
