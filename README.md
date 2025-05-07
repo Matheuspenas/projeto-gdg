@@ -318,9 +318,23 @@ Após o envio dos dados, o sistema responde com mensagens claras dentro da mesma
   - Campos obrigatórios não preenchidos corretamente;
   - Formato de e-mail ou número inválidos.
 
-🎥 GIF das mensagens de retorno:
-(adicione aqui)
+🎥 Imagem  das mensagens de retorno:
 
+### ✅ Inscrição realizada com sucesso!  
+
+![Inscrição realizada com sucesso](./Images/Mensagem-de-inscriçao-realizada.png)
+
+---
+
+### 🟢 Você já está inscrito!  
+
+![Já inscrito](./Images/Mensagem-voce-ja-esta-inscrito.png)
+
+---
+
+### ❌ Erro ao enviar inscrição. Tente novamente.  
+
+![Erro ao enviar](./Gifs/erro_envio.gif)
 ---
 
 ### ⏳ Temporizador do Evento
