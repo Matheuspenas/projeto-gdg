@@ -334,7 +334,8 @@ Após o envio dos dados, o sistema responde com mensagens claras dentro da mesma
 
 ### ❌ Erro ao enviar inscrição. Tente novamente.  
 
-![Erro ao enviar](./Gifs/erro_envio.gif)
+![Erro ao enviar](./Images/Mensagem-erro.png)
+
 ---
 
 ### ⏳ Temporizador do Evento
