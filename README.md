@@ -87,7 +87,7 @@ As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesum
 
 ## 🔠 Mapa Mental
 
-![Mapa Mental](./Images/Black%20Doodle%20Tools%20for%20Generating%20Ideas%20Mind%20Map.jpg)
+![Mapa Mental](./Images/Mapa_mental.jpg)
 
 ## 📅 Trello
 
@@ -118,8 +118,8 @@ O menu hamburguer possui fundo **meio transparente** e pode ser fechado ao clica
 📌 _Funciona perfeitamente em dispositivos móveis, com boa responsividade._
 
 🎥 **GIF demonstrativo do Menu Hamburguer:**  
-`(adicione aqui)`  
-![GIF do Menu](./Images/gif-menu.gif)
+ 
+![GIF do Menu](./Gifs/Gif_menu_hamburguer.gif)
 
 ---
 
@@ -141,7 +141,7 @@ Um botão grande e chamativo com chamada à ação leva diretamente para a pági
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20de%20tela%20do%20botão%20de%20inscrição%20da%20página%20inicial(desktop).gif)
+![Versão Desktop](./Gifs/Gif-botao-inscreverSe-pagina-inicial.gif)
 
 ---
 
@@ -265,7 +265,7 @@ Apresenta os palestrantes do evento com destaque visual e informações relevant
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(desktop).gif)
+![Versão Desktop](./Gifs/Gif_pagina_de_palestrantes.gif)
 
 ---
 
@@ -302,7 +302,7 @@ Exibido centralizado e em destaque com `box-shadow`, dando aparência de estar a
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20de%20tela%20do%20formulário%20de%20inscrição(desktop).gif)
+![Versão Desktop](./Gifs/Gif-formulario-inscricao.gif)
 
 ---
 
@@ -322,7 +322,7 @@ Após o envio dos dados, o sistema responde com mensagens claras dentro da mesma
 
 ### ✅ Inscrição realizada com sucesso!  
 
-![Inscrição realizada com sucesso](./Images/Mensagem-de-inscriçao-realizada.png)
+![Inscrição realizada com sucesso](./Images/Mensagem-de-inscricao-realizada.png)
 
 ---
 
@@ -346,7 +346,7 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(desktop).gif)
+![Temporizador para o Início do Evento](./Gifs/Gif-temporizador-para-inicio-do-evento.gif)
 
 🎉 Quando o contador chega a zero (horário de início do evento), ele é **automaticamente substituído** por uma mensagem:
 
@@ -354,7 +354,7 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar(desktop).gif)
+![Mensagem após o Temporizador Zerar](./Gifs/Gif-mensagem-apos-zerar-o-temporizador.gif)
 
 ---
 
