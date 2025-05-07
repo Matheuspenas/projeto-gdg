@@ -8,35 +8,33 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 
 ## 🔧 Funcionalidades da Página
 
-### 📄 Página Inicial
-- Exibição de um banner com o nome e a data do evento.
-- Descrição curta do evento.
-- Botão de chamada para ação, como "Inscreva-se agora".
-- Grid de cards com eventos anteriores e botão "Ver mais".
+### Página Inicial
+- Exibição de um banner com nome, data e descrição do evento.
+- Botão de chamada para ação: “Inscreva-se agora”.
+- Cards de **eventos anteriores** exibidos em um grid com botão “Ver mais”, mostrando 4 eventos por vez.
 - Ícones de redes sociais interativos.
-- Footer com seção de patrocinadores.
-- Animação de fundo com efeito Vanta.js.
-- Animações fade-in ao rolar a página.
-- Botão flutuante com animação pulse.
-- Menu hamburguer responsivo (presente em todas as páginas).
+- Rodapé com patrocinadores e apoiadores.
+- Animação de fundo com `Vanta.net` em azul.
+- Animações `fade-in` ao rolar a página.
+- Layout responsivo e menu hambúrguer com animação pulse.
 
-### 🗓 Página de Programação
-- Exibição da agenda com temas, horários e descrição das atividades.
+### Página de Programação
+- Cronograma com horários e atividades do evento.
+- Animação de fundo com `Vanta.net` em laranja.
 
-### 🎤 Página de Palestrantes
-- Cards com fotos, nomes, cargos e mini currículos dos palestrantes.
-- Layout adaptável para mobile e desktop.
+### Página de Palestrantes
+- Cards com foto, nome, currículo e cargo de cada palestrante.
+- Animação de fundo com `Vanta.net` em verde.
 
-### 📍 Página de Localização
-- Exibição de endereço completo.
-- Integração com mapa (embed do Google Maps).
-- Informações sobre o local no campus e instruções de chegada.
+### Página de Localização
+- Endereço completo com integração ao Google Maps.
+- Indicação do local exato dentro do campus.
+- Animação de fundo com `Vanta.net` em roxo.
 
-### 📝 Página de Inscrição
-- Formulário para se inscrever no evento.
-- Validação de campos obrigatórios.
-- Armazenamento das respostas em planilha Google Sheets.
-- Mensagem de confirmação após envio bem-sucedido.
+### Página de Inscrição
+- Formulário de inscrição com validação de campos.
+- Mensagem de confirmação após envio.
+- Animação `Matrix 2D` com as cores azul, laranja, verde e vermelho como plano de fundo.
 
 ---
 
@@ -144,6 +142,7 @@ Um botão grande e chamativo com chamada à ação leva diretamente para a pági
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20de%20tela%20do%20botão%20de%20inscrição%20da%20página%20inicial(desktop).gif)
+
 ---
 
 ## 🔴 Botão Flutuante com Animação Pulse
@@ -241,6 +240,7 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif)
+
 ---
 
 ## 👩‍🏫 Página de Palestrantes
@@ -266,6 +266,7 @@ Apresenta os palestrantes do evento com destaque visual e informações relevant
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20da%20tela%20da%20Página%20de%20Palestrantes(desktop).gif)
+
 ---
 
 ## 📝 Página de Inscrição
@@ -302,6 +303,7 @@ Exibido centralizado e em destaque com `box-shadow`, dando aparência de estar a
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20de%20tela%20do%20formulário%20de%20inscrição(desktop).gif)
+
 ---
 
 ### ✉️ Mensagens de Retorno
@@ -331,6 +333,7 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20do%20Temporizador%20para%20inicio%20do%20evento(desktop).gif)
+
 🎉 Quando o contador chega a zero (horário de início do evento), ele é **automaticamente substituído** por uma mensagem:
 
 > **"O evento começou!"**
@@ -338,6 +341,7 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 ## Versão Desktop
 
 ![Versão Desktop](./Gifs/Gravação%20de%20exibição%20da%20mensagem%20após%20o%20temporizador%20zerar(desktop).gif)
+
 ---
 
 ## 📍 Página de Localização
@@ -357,3 +361,21 @@ Página acessada ao clicar no botão **“Localização”** no menu hambúrguer
 
 🎥 GIF do mapa e visual da página:  
 (adicione aqui)
+
+---
+
+## 👨‍💻 Desenvolvedores
+
+Este projeto foi desenvolvido por estudantes de Engenharia de Software da Unicesumar:
+
+- **Paulo Vinicius Carraro** – [@Paulovcarraro](https://github.com/Paulovcarraro)
+- **Matheus Pena** – [@Matheuspenas](https://github.com/Matheuspenas)
+- **Daniel Bill** – [@DanielBiLL13](https://github.com/DanielBiLL13)
+
+---
+
+## 🌐 Acesse o Projeto
+
+Você pode visualizar o site no GitHub Pages pelo link abaixo:
+
+🔗 [Acessar Site GDG - GitHub Pages](https://matheuspenas.github.io/projeto-gdg/)
