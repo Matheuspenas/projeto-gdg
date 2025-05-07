@@ -384,7 +384,8 @@ Página acessada ao clicar no botão **“Localização”** no menu hambúrguer
 - Responsivo e adaptável para celulares.
 
 🎥 GIF do mapa e visual da página:  
-(adicione aqui)
+
+![GIF Página de Localização](./Gifs/Gif-pagina-localizacao.gif)
 
 ---
 
