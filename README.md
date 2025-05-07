@@ -9,6 +9,7 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 ## 🔧 Funcionalidades da Página
 
 ### Página Inicial
+
 - Exibição de um banner com nome, data e descrição do evento.
 - Botão de chamada para ação: “Inscreva-se agora”.
 - Cards de **eventos anteriores** exibidos em um grid com botão “Ver mais”, mostrando 4 eventos por vez.
@@ -19,29 +20,37 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 - Layout responsivo e menu hambúrguer com animação pulse.
 
 ### Página de Programação
+
 - Cronograma com horários e atividades do evento.
+- Animações `fade-in` ao rolar a página.
 - Animação de fundo com `Vanta.net` em laranja.
 
 ### Página de Palestrantes
+
 - Cards com foto, nome, currículo e cargo de cada palestrante.
+- Animações `fade-in` ao rolar a página.
 - Animação de fundo com `Vanta.net` em verde.
 
 ### Página de Localização
+
 - Endereço completo com integração ao Google Maps.
 - Indicação do local exato dentro do campus.
-- Animação de fundo com `Vanta.net` em roxo.
+- Animações `fade-in` ao rolar a página.
+- Animação de fundo com `Vanta.net` em vermelho.
 
 ### Página de Inscrição
+
 - Formulário de inscrição com validação de campos.
 - Mensagem de confirmação após envio.
+- Animações `fade-in` ao rolar a página.
 - Animação `Matrix 2D` com as cores azul, laranja, verde e vermelho como plano de fundo.
 
 ---
 
 ## 📱 Responsividade Geral
+
 - Layout 100% responsivo para desktop, tablet e mobile.
 - Menu hamburguer funcional em todas as resoluções.
-
 
 ## 🔼 Público-Alvo
 
@@ -117,8 +126,8 @@ O menu hamburguer possui fundo **meio transparente** e pode ser fechado ao clica
 
 📌 _Funciona perfeitamente em dispositivos móveis, com boa responsividade._
 
-🎥 **GIF demonstrativo do Menu Hamburguer:**  
- 
+🎥 **GIF demonstrativo do Menu Hamburguer:**
+
 ![GIF do Menu](./Gifs/Gif_menu_hamburguer.gif)
 
 ---
@@ -127,9 +136,9 @@ O menu hamburguer possui fundo **meio transparente** e pode ser fechado ao clica
 
 Logo após o header, é exibida uma **seção com data, horário, nome e localização** do evento GDG. Abaixo dessas informações, há uma **descrição do evento**.
 
-🎥 **GIF dessa seção:**  
-`(adicione aqui)`  
-![GIF Info Evento](./Images/gif-infos.gif)
+🎥 **Imagem dessa seção:**
+
+📸![GIF Info Evento](./Images/Sobre-o-evento.png)
 
 ---
 
@@ -137,7 +146,7 @@ Logo após o header, é exibida uma **seção com data, horário, nome e localiz
 
 Um botão grande e chamativo com chamada à ação leva diretamente para a página do **formulário de inscrição**.
 
-🎥 **GIF do botão de inscrição:**  
+🎥 **GIF do botão de inscrição:**
 
 ## Versão Desktop
 
@@ -151,9 +160,9 @@ Ao rolar a página, surge um **botão pequeno no canto inferior direito** com um
 
 - A bolinha desaparece após o menu ser clicado pela primeira vez.
 
-🎥 **GIF do botão flutuante com animação:**  
-`(adicione aqui)`  
-![GIF Botão Pulse](./Images/gif-botao-pulse.gif)
+🎥 **GIF do botão flutuante com animação:**
+
+![GIF Botão Pulse](./Gifs/Gif-botao-bolha.gif)
 
 ---
 
@@ -166,9 +175,9 @@ A antiga galeria foi substituída por um **grid de cards responsivos** que exibe
 - A funcionalidade evita rolagens longas e mantém a organização visual;
 - Totalmente responsivo e com animações suaves para exibição dos novos cards.
 
-🎥 **GIF dos cards com botão "Ver mais":**  
-`(adicione aqui)`  
-![GIF Cards Evento](./Images/gif-cards-evento.gif)
+🎥 **GIF dos cards com botão "Ver mais":**
+
+![GIF Cards Evento](./Gifs/gifDosCardsEventosAnteriores.gif)
 
 ---
 
@@ -184,7 +193,7 @@ A antiga galeria foi substituída por um **grid de cards responsivos** que exibe
   - YouTube
   - E-mail
 
-🎥 **GIF dos ícones interativos:**  
+🎥 **GIF dos ícones interativos:**
 
 ![GIF Contato](./Gifs/Gif-contatos.gif)
 
@@ -194,7 +203,7 @@ A antiga galeria foi substituída por um **grid de cards responsivos** que exibe
 
 No final da página, há uma seção de "Apoio", destacando os **patrocinadores, colaboradores e apoiadores** do evento.
 
-🎥 **GIF do footer:**  
+🎥 **GIF do footer:**
 
 ![GIF Footer](./Gifs/Gif-footer.gif)
 
@@ -239,7 +248,7 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
 
 ## Versão Desktop
 
-![Versão Desktop](./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif)
+![Versão Desktop](<./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif>)
 
 ---
 
@@ -318,21 +327,21 @@ Após o envio dos dados, o sistema responde com mensagens claras dentro da mesma
   - Campos obrigatórios não preenchidos corretamente;
   - Formato de e-mail ou número inválidos.
 
-🎥 Imagem  das mensagens de retorno:
+📸 Imagens das mensagens de retorno:
 
-### ✅ Inscrição realizada com sucesso!  
+### ✅ Inscrição realizada com sucesso!
 
 ![Inscrição realizada com sucesso](./Images/Mensagem-de-inscricao-realizada.png)
 
 ---
 
-### 🟢 Você já está inscrito!  
+### 🟢 Você já está inscrito!
 
 ![Já inscrito](./Images/Mensagem-voce-ja-esta-inscrito.png)
 
 ---
 
-### ❌ Erro ao enviar inscrição. Tente novamente.  
+### ❌ Erro ao enviar inscrição. Tente novamente.
 
 ![Erro ao enviar](./Images/Mensagem-erro.png)
 
