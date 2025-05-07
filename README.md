@@ -185,8 +185,8 @@ A antiga galeria foi substituída por um **grid de cards responsivos** que exibe
   - E-mail
 
 🎥 **GIF dos ícones interativos:**  
-`(adicione aqui)`  
-![GIF Contato](./Images/gif-contato.gif)
+
+![GIF Contato](./Gifs/Gif-contatos.gif)
 
 ---
 
@@ -195,8 +195,8 @@ A antiga galeria foi substituída por um **grid de cards responsivos** que exibe
 No final da página, há uma seção de "Apoio", destacando os **patrocinadores, colaboradores e apoiadores** do evento.
 
 🎥 **GIF do footer:**  
-`(adicione aqui)`  
-![GIF Footer](./Images/gif-footer.gif)
+
+![GIF Footer](./Gifs/Gif-footer.gif)
 
 ---
 
@@ -344,7 +344,7 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 - Texto: **“Faltam apenas:”**
 - Seguido de: dias, horas, minutos e segundos, **atualizando a cada segundo** sem atrasos ou recarregamento da página.
 
-## Versão Desktop
+## Temporizador para o Início do Evento
 
 ![Temporizador para o Início do Evento](./Gifs/Gif-temporizador-para-inicio-do-evento.gif)
 
@@ -352,7 +352,7 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 > **"O evento começou!"**
 
-## Versão Desktop
+## Mensagem após o Temporizador Zerar
 
 ![Mensagem após o Temporizador Zerar](./Gifs/Gif-mensagem-apos-zerar-o-temporizador.gif)
 
