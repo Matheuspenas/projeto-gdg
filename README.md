@@ -96,7 +96,7 @@ Durante o desenvolvimento, foram aplicadas animações específicas para cada p�
 - Aplicada em todas as páginas para uma transição suave dos elementos ao carregar.
 - Aumenta a fluidez da navegação e dá um aspecto moderno ao site.
 
-#### 🔸 Fundo Animado com Vanta.NET
+### 🔸 Fundo Animado com Vanta.NET
 - Presente em todas as páginas, com **variações de cores específicas por página**.
 - Utiliza a biblioteca `Vanta.js`, especificamente o efeito `NET`, que cria uma malha interativa de linhas e pontos em constante movimento.
 - Esse efeito responde ao movimento do mouse ou do dedo (celular), proporcionando uma sensação de profundidade e interatividade.
@@ -116,9 +116,13 @@ As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesum
 
 ## 🔠 Mapa Mental
 
+O mapa mental foi elaborado na etapa inicial do projeto para organizar ideias, definir as páginas, funcionalidades e a identidade visual. Ele serviu como base para estruturar todo o desenvolvimento.
+
 ![Mapa Mental](./Images/Mapa_mental.jpg)
 
 ## 📅 Trello
+
+O quadro no Trello foi utilizado para **organizar as tarefas da equipe**, acompanhar o progresso e dividir responsabilidades. As colunas representam as etapas: ideias, a fazer, em andamento e concluído.
 
 ![Imagem Trello](./Images/Captura%20de%20tela%202025-03-21%20210138.png)
 
