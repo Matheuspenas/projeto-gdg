@@ -1,5 +1,14 @@
 # Projeto-GDG
 
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=LICENSE&message=UniCesumar&color=blue&labelColor=0a2540&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=blue&labelColor=0a2540&style=for-the-badge"/>
+</p>
+
+> Status do Projeto: :heavy_check_mark: :warning: em desenvolvimento
+
+
+
 ## ✨ Descrição do Projeto
 
 Este projeto tem como objetivo a divulgação de um evento tecnológico GDG por meio de uma página web.
@@ -82,6 +91,21 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 - [Font Awesome](https://fontawesome.com/) – Ícones vetoriais usados na interface
 - [Vanta.js](https://www.vantajs.com/) – Animação de fundo com efeito de rede (Net)
 
+
+## ✨ Animações e Efeitos Visuais
+
+Durante o desenvolvimento, foram aplicadas animações específicas para cada página, visando melhorar a experiência do usuário e reforçar a identidade visual do site.
+
+### 🔹 Animação Fade-in
+- Aplicada em todas as páginas para uma transição suave dos elementos ao carregar.
+- Aumenta a fluidez da navegação e dá um aspecto moderno ao site.
+
+#### 🔸 Fundo Animado com Vanta.NET
+- Presente em todas as páginas, com **variações de cores específicas por página**.
+- Utiliza a biblioteca `Vanta.js`, especificamente o efeito `NET`, que cria uma malha interativa de linhas e pontos em constante movimento.
+- Esse efeito responde ao movimento do mouse ou do dedo (celular), proporcionando uma sensação de profundidade e interatividade.
+- Reforça a identidade visual do site com um fundo moderno, dinâmico e tecnológico.
+
 ## 🎨 Justificativa do Design
 
 As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesumar`, promovendo a união entre os dois.
@@ -110,6 +134,13 @@ As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesum
 
 A página inicial tem como objetivo principal apresentar as informações essenciais do evento GDG Londrina, com um layout moderno, interações visuais e acessibilidade para diversos dispositivos.
 
+Além disso, a página conta com **animações visuais** que tornam a navegação mais envolvente:
+
+- 💠 **Fundo animado com Vanta.net (Azul)**: Um background interativo que dá movimento à página com uma malha interativa de linhas e pontos em constante movimento.
+- ✨ **Animações fade-in**: Aplicadas aos elementos principais para que apareçam suavemente à medida que o usuário rola a página.
+
+Esses efeitos visuais aumentam o dinamismo da interface, tornando a experiência mais fluida e moderna.
+
 A seguir estão as principais seções da página inicial, com suas funcionalidades e espaço para demonstração visual (GIFs/fotos):
 
 ---
@@ -123,6 +154,7 @@ O menu hamburguer possui fundo **meio transparente** e pode ser fechado ao clica
 - Palestrantes
 - Inscrição
 - Localização
+- Site Oficial do GDG Londrina
 
 📌 _Funciona perfeitamente em dispositivos móveis, com boa responsividade._
 
@@ -148,9 +180,7 @@ Um botão grande e chamativo com chamada à ação leva diretamente para a pági
 
 🎥 **GIF do botão de inscrição:**
 
-## Versão Desktop
-
-![Versão Desktop](./Gifs/Gif-botao-inscreverSe-pagina-inicial.gif)
+![Gif Botão de Inscrição](./Gifs/Gif-botao-inscreverSe-pagina-inicial.gif)
 
 ---
 
@@ -209,30 +239,6 @@ No final da página, há uma seção de "Apoio", destacando os **patrocinadores,
 
 ---
 
-## 🎨 Animação de Fundo e Escolha de Cores
-
-- O **background da página** possui uma animação com efeito `vanta.net` em azul.
-
-🎥 **GIF da animação de fundo e cores:**  
-`(adicione aqui)`  
-![GIF Fundo Vanta](./Images/gif-vanta.gif)
-
----
-
-## ✨ Animações Fade-In ao Rolar a Página
-
-A página possui uma animação **fade-in** para diversos elementos que aparecem conforme o usuário rola o conteúdo:
-
-- Torna a navegação mais leve e visualmente agradável;
-- Melhora a leitura e a transição entre seções;
-- Responsiva em diferentes dispositivos.
-
-🎥 **GIF das animações fade-in ao rolar:**  
-`(adicione aqui)`  
-![GIF Fade In](./Images/gif-fadein.gif)
-
----
-
 ## 🗓️ Página de Programação
 
 Apresenta os horários, temas e palestrantes do evento de forma clara e estilizada.
@@ -244,11 +250,9 @@ Apresenta os horários, temas e palestrantes do evento de forma clara e estiliza
   - Tema da palestra;
   - Horário do bloco.
 
-🎥 GIF da página de programação:
+🎥 **GIF da página de programação:**
 
-## Versão Desktop
-
-![Versão Desktop](<./Gifs/Gravação%20de%20tela%20Página%20de%20Programação(desktop).gif>)
+![Gif Página de Programação](./Gifs/Gif-pagina-programacao.gif)
 
 ---
 
@@ -270,11 +274,9 @@ Apresenta os palestrantes do evento com destaque visual e informações relevant
   - Exibe todas as informações relevantes sobre ele (mini currículo);
   - Inclui **ícones interativos com links para redes sociais** (LinkedIn, GitHub, Instagram, Twitter (X), etc).
 
-🎥 GIF da página de palestrantes:
+🎥 **GIF da página de palestrantes:**
 
-## Versão Desktop
-
-![Versão Desktop](./Gifs/Gif_pagina_de_palestrantes.gif)
+![Gif Página de Palestrantes](./Gifs/Gif_pagina_de_palestrantes.gif)
 
 ---
 
@@ -307,11 +309,9 @@ Exibido centralizado e em destaque com `box-shadow`, dando aparência de estar a
   - Uma **barra de carregamento** aparece abaixo do botão;
   - Os dados são verificados e enviados para uma **planilha no Google Sheets**, criada exclusivamente para armazenar as inscrições com segurança (ex: para emissão de certificados de participação).
 
-🎥 GIF do formulário e da barra de carregamento:
+🎥 **GIF do formulário e da barra de carregamento:**
 
-## Versão Desktop
-
-![Versão Desktop](./Gifs/Gif-formulario-inscricao.gif)
+![Formulário de Inscrição](./Gifs/Gif-formulario-inscricao.gif)
 
 ---
 
@@ -378,12 +378,14 @@ Página acessada ao clicar no botão **“Localização”** no menu hambúrguer
 
   - 🏛️ Local: Auditório da Unicesumar (2º andar);
   - 📍 Endereço: Av. Santa Mônica, 450 – Franca, Londrina – PR, 86027-610;
-  - 🛍️ Ponto de referência: Próximo ao Shopping Boulevard.
+  - 🛍️ Ponto de referência: Próximo ao Shopping Boulevard;
+  - 🚗 Estacionamento interno liberado para todos do evento (**conforme disponibilidade de vagas**) – incentivamos **caronas colaborativas!**;
+  - 🚌 Linhas de transporte público: **102 e 103**.
 
 - Mapa do Google Maps embutido, com bordas arredondadas e `box-shadow`, direcionando o usuário diretamente para o site ou aplicativo, para ter acesso a localização exatas e rotas até o local do evento;
 - Responsivo e adaptável para celulares.
 
-🎥 GIF do mapa e visual da página:  
+🎥 **GIF do mapa e visual da página:**  
 
 ![GIF Página de Localização](./Gifs/Gif-pagina-localizacao.gif)
 
@@ -393,9 +395,28 @@ Página acessada ao clicar no botão **“Localização”** no menu hambúrguer
 
 Este projeto foi desenvolvido por estudantes de Engenharia de Software da Unicesumar:
 
-- **Paulo Vinicius Carraro** – [@Paulovcarraro](https://github.com/Paulovcarraro)
-- **Matheus Pena** – [@Matheuspenas](https://github.com/Matheuspenas)
-- **Daniel Bill** – [@DanielBiLL13](https://github.com/DanielBiLL13)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Paulovcarraro">
+        <img src="https://github.com/Paulovcarraro.png" width="100px;" alt="Foto do Paulo Vinicius"/><br />
+        <sub><b>Paulo Vinicius Carraro</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Matheuspenas">
+        <img src="https://github.com/Matheuspenas.png" width="100px;" alt="Foto do Matheus Pena"/><br />
+        <sub><b>Matheus Pena</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/DanielBiLL13">
+        <img src="https://github.com/DanielBiLL13.png" width="100px;" alt="Foto do Daniel Bill"/><br />
+        <sub><b>Daniel Bill</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
