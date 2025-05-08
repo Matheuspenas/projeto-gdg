@@ -2,19 +2,22 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=LICENSE&message=UniCesumar&color=blue&labelColor=0a2540&style=for-the-badge"/>
-  <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=blue&labelColor=0a2540&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=blue&labelColor=0a2540&style=for-the-badge"/>
 </p>
 
 ## ✨ Descrição do Projeto
 
-Este projeto tem como objetivo a divulgação de um evento tecnológico GDG por meio de uma página web.
+Este site foi desenvolvido para divulgar e gerenciar um **evento acadêmico de tecnologia** promovido por estudantes da Unicesumar em parceria com o **GDG Londrina (Google Developer Groups de Londrina)**.
 
-A página irá conter a data, hora e local do evento, juntamente com uma seção com o currículo dos palestrantes e uma funcionalidade de inscrição para o evento.
+O site reúne todas as informações essenciais sobre o evento, incluindo **data, hora, local, programação, palestrantes e formulário de inscrição**. Também oferece recursos visuais atrativos e responsivos, promovendo uma navegação fluida e moderna para os usuários.
+
+O objetivo é **facilitar o acesso às informações**, permitir **inscrições rápidas e validadas**, e proporcionar uma **experiência imersiva** com animações e design responsivo.
 
 ## 🔧 Funcionalidades da Página
 
 ### Página Inicial
 
+- **Menu hamburguer funcional**, acessível por todas as páginas e otimizado para dispositivos móveis.
 - Exibição de um banner com nome, data e descrição do evento.
 - Botão de chamada para ação: “Inscreva-se agora”.
 - Cards de **eventos anteriores** exibidos em um grid com botão “Ver mais”, mostrando 4 eventos por vez.
@@ -22,31 +25,44 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 - Rodapé com patrocinadores e apoiadores.
 - Animação de fundo com `Vanta.net` em azul.
 - Animações `fade-in` ao rolar a página.
-- Layout responsivo e menu hambúrguer com animação pulse.
+- **Botão Bolha**: aparece ao rolar a página, após o botão de inscrição.
+  - Ao ser clicado, leva diretamente ao menu hamburguer.
+  - O menu realiza uma leve **animação pulse**.
+  - Após isso, o botão recebe uma **bolinha vermelha de notificação**, que **só desaparece após o menu ser aberto**.
 
 ### Página de Programação
 
 - Cronograma com horários e atividades do evento.
 - Animações `fade-in` ao rolar a página.
-- Animação de fundo com `Vanta.net` em laranja.
+- Animação de fundo com `Vanta.net` em verde.
 
 ### Página de Palestrantes
 
-- Cards com foto, nome, currículo e cargo de cada palestrante.
+- Cards com foto, nome, e profissão.
+- Janela modal com currículo, cargo, redes sociais e descrição de cada palestrante.
 - Animações `fade-in` ao rolar a página.
-- Animação de fundo com `Vanta.net` em verde.
+- Animação de fundo com `Vanta.net` em laranja.
 
 ### Página de Localização
 
 - Endereço completo com integração ao Google Maps.
 - Indicação do local exato dentro do campus.
+- Informações do estacionamento do local.
+- Informações sobre transporte público.
+- Ícones de redes sociais interativos.
 - Animações `fade-in` ao rolar a página.
 - Animação de fundo com `Vanta.net` em vermelho.
 
 ### Página de Inscrição
 
 - Formulário de inscrição com validação de campos.
-- Mensagem de confirmação após envio.
+- Barra de carregamento até o término do processamento da inscrição.
+- Sistema de mensagens que exibe:
+  - Confirmação de inscrição bem-sucedida.
+  - Alerta de que o participante já está inscrito, impedindo inscrições duplicadas.
+  - Notificações de erro em caso de preenchimento incorreto.
+- Temporizador de contagem regressiva até o início do evento.
+  - Exibição da mensagem "O evento começou" após o fim da contagem.
 - Animações `fade-in` ao rolar a página.
 - Animação `Matrix 2D` com as cores azul, laranja, verde e vermelho como plano de fundo.
 
@@ -54,8 +70,11 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 
 ## 📱 Responsividade Geral
 
+- Fonte Audiowide para todo o site.
 - Layout 100% responsivo para desktop, tablet e mobile.
-- Menu hamburguer funcional em todas as resoluções.
+- Menu hamburguer funcional em todas as resoluções e páginas.
+- **Footer unificado** em todas as páginas do site, com exibição dos **apoiadores do evento**.
+  - Cada imagem de apoiador é **clicável** e direciona para o **site oficial** correspondente.
 
 ## 🔼 Público-Alvo
 
@@ -87,16 +106,17 @@ A página irá conter a data, hora e local do evento, juntamente com uma seção
 - [Font Awesome](https://fontawesome.com/) – Ícones vetoriais usados na interface
 - [Vanta.js](https://www.vantajs.com/) – Animação de fundo com efeito de rede (Net)
 
-
 ## ✨ Animações e Efeitos Visuais
 
 Durante o desenvolvimento, foram aplicadas animações específicas para cada página, visando melhorar a experiência do usuário e reforçar a identidade visual do site.
 
 ### 🔹 Animação Fade-in
+
 - Aplicada em todas as páginas para uma transição suave dos elementos ao carregar.
 - Aumenta a fluidez da navegação e dá um aspecto moderno ao site.
 
 ### 🔸 Fundo Animado com Vanta.NET
+
 - Presente em todas as páginas, com **variações de cores específicas por página**.
 - Utiliza a biblioteca `Vanta.js`, especificamente o efeito `NET`, que cria uma malha interativa de linhas e pontos em constante movimento.
 - Esse efeito responde ao movimento do mouse ou do dedo (celular), proporcionando uma sensação de profundidade e interatividade.
@@ -104,7 +124,7 @@ Durante o desenvolvimento, foram aplicadas animações específicas para cada p�
 
 ## 🎨 Justificativa do Design
 
-As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesumar`, promovendo a união entre os dois.
+As cores foram inspiradas na identidade visual do `GDG Londrina` e da `Unicesumar`, promovendo a união entre os dois.
 
 ## 🖋️ Wireframes e Esboços
 
@@ -114,7 +134,7 @@ As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesum
 - Página de Inscrição: Para efetuar a inscrição e receber certificado (se houver emissão).
 - Página de Localização: Contém informações sobre o local, horário e em qual parte do campus será realizado o evento, além de conter um mapa integrado levando diretamente à localização.
 
-🔗 [Clique aqui para acessar os wireframes no Figma](https://www.figma.com/design/4hg1Heg24TUCfrjrQD5CZ4/evento-tech?node-id=0-1&t=VGOS6Vt91PE3hOpb-0)
+🔗 [Clique aqui para acessar os wireframes e esboços no Figma](https://www.figma.com/design/4hg1Heg24TUCfrjrQD5CZ4/evento-tech?node-id=0-1&t=VGOS6Vt91PE3hOpb-0)
 
 ## 🔠 Mapa Mental
 
@@ -126,7 +146,7 @@ O mapa mental foi elaborado na etapa inicial do projeto para organizar ideias, d
 
 O quadro no Trello foi utilizado para **organizar as tarefas da equipe**, acompanhar o progresso e dividir responsabilidades. As colunas representam as etapas: ideias, a fazer, em andamento e concluído.
 
-![Trello](./Images/Captura%20de%20tela%202025-03-21%20210138.png)
+![Trello](./Images/trello.webp)
 
 ---
 
@@ -170,9 +190,9 @@ O menu hamburguer possui fundo **meio transparente** e pode ser fechado ao clica
 
 Logo após o header, é exibida uma **seção com data, horário, nome e localização** do evento GDG. Abaixo dessas informações, há uma **descrição do evento**.
 
-🎥 **Imagem dessa seção:**
+📸 **Imagem dessa seção:**
 
-📸![GIF Info Evento](./Images/Sobre-o-evento.png)
+![GIF Info Evento](./Images/Sobre-o-evento.png)
 
 ---
 
@@ -223,7 +243,7 @@ A antiga galeria foi substituída por um **grid de cards responsivos** que exibe
   - Instagram
   - LinkedIn
   - YouTube
-  - E-mail
+  - GitHub
 
 🎥 **GIF dos ícones interativos:**
 
@@ -330,7 +350,7 @@ Após o envio dos dados, o sistema responde com mensagens claras dentro da mesma
   - Campos obrigatórios não preenchidos corretamente;
   - Formato de e-mail ou número inválidos.
 
-📸 Imagens das mensagens de retorno:
+📸 **Imagens das mensagens de retorno:**
 
 ### ✅ Inscrição realizada com sucesso!
 
@@ -361,6 +381,8 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 ![Temporizador para o Início do Evento](./Gifs/Gif-temporizador-para-inicio-do-evento.gif)
 
+---
+
 🎉 Quando o contador chega a zero (horário de início do evento), ele é **automaticamente substituído** por uma mensagem:
 
 > **"O evento começou!"**
@@ -375,8 +397,8 @@ Logo abaixo do formulário, é exibido um **contador regressivo em tempo real**:
 
 Página acessada ao clicar no botão **“Localização”** no menu hambúrguer da página principal ou em qualqer uma das outras.
 
-- Mantém o mesmo layout das outras páginas (header, menu hambúrguer, footer e animações com fade-in);
-- Fundo com **efeito visual Vanta.NET vermelho** (movimentação de linhas e pontos) aplicado com `JavaScript`;
+- Mantém o mesmo layout das outras páginas (header, menu hambúrguer, footer e animações com fade-in).
+- Fundo com **efeito visual Vanta.NET vermelho**;
 - Apresenta as **informações do local do evento** com clareza:
 
   - 🏛️ Local: Auditório da Unicesumar (2º andar);
@@ -385,10 +407,10 @@ Página acessada ao clicar no botão **“Localização”** no menu hambúrguer
   - 🚗 Estacionamento interno liberado para todos do evento (**conforme disponibilidade de vagas**) – incentivamos **caronas colaborativas!**;
   - 🚌 Linhas de transporte público: **102 e 103**.
 
-- Mapa do Google Maps embutido, com bordas arredondadas e `box-shadow`, direcionando o usuário diretamente para o site ou aplicativo, para ter acesso a localização exatas e rotas até o local do evento;
+- Mapa do Google Maps embutido, com bordas arredondadas e `box-shadow`, direcionando o usuário diretamente para o site ou aplicativo, para ter acesso a localização exata e rotas até o local do evento;
 - Responsivo e adaptável para celulares.
 
-🎥 **GIF do mapa e visual da página:**  
+🎥 **GIF do mapa e visual da página:**
 
 ![GIF Página de Localização](./Gifs/Gif-pagina-localizacao.gif)
 
@@ -403,7 +425,7 @@ Este projeto foi desenvolvido por estudantes de Engenharia de Software da Unices
     <td align="center">
       <a href="https://github.com/Paulovcarraro">
         <img src="https://github.com/Paulovcarraro.png" width="100px;" alt="Foto do Paulo Vinicius"/><br />
-        <sub><b>Paulo Vinicius Carraro</b></sub>
+        <sub><b>Paulo Vinícius Carraro</b></sub>
       </a>
     </td>
     <td align="center">
