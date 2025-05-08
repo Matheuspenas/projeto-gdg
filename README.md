@@ -114,6 +114,8 @@ As cores serão inspiradas na identidade visual do `GDG Londrina` e da `Unicesum
 - Página de Inscrição: Para efetuar a inscrição e receber certificado (se houver emissão).
 - Página de Localização: Contém informações sobre o local, horário e em qual parte do campus será realizado o evento, além de conter um mapa integrado levando diretamente à localização.
 
+🔗 [Clique aqui para acessar os wireframes no Figma](https://www.figma.com/design/4hg1Heg24TUCfrjrQD5CZ4/evento-tech?node-id=0-1&t=VGOS6Vt91PE3hOpb-0)
+
 ## 🔠 Mapa Mental
 
 O mapa mental foi elaborado na etapa inicial do projeto para organizar ideias, definir as páginas, funcionalidades e a identidade visual. Ele serviu como base para estruturar todo o desenvolvimento.
@@ -124,7 +126,7 @@ O mapa mental foi elaborado na etapa inicial do projeto para organizar ideias, d
 
 O quadro no Trello foi utilizado para **organizar as tarefas da equipe**, acompanhar o progresso e dividir responsabilidades. As colunas representam as etapas: ideias, a fazer, em andamento e concluído.
 
-![Imagem Trello](./Images/Captura%20de%20tela%202025-03-21%20210138.png)
+![Trello](./Images/Captura%20de%20tela%202025-03-21%20210138.png)
 
 ---
 
