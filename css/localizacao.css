@@ -19,7 +19,6 @@ body {
   z-index: -1;
 }
 
-
 /* Estlização do header daa página Header */
 
 header {
@@ -27,18 +26,13 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #1f1f1f;
-  padding: 10px 15px; /* Ajustado o padding para corresponder */
+  padding: 10px 15px;
   position: relative;
 }
 
 .evento-logo {
-  height: 30px; /* Ajustado a altura para corresponder */
+  height: 30px;
   margin-right: 10px;
-}
-
-.evento-nome {
-  font-size: 18px;
-
 }
 
 .logo-container {
@@ -105,7 +99,6 @@ header {
   transition: all 0.5s ease;
 }
 
-
 .sidebar ul {
   list-style: none;
   padding: 0;
@@ -155,7 +148,7 @@ header {
 /* Google Maps */
 
 .mapa__container {
-  width: 95%; /* Ajustado para ocupar a largura disponível em telas menores */
+  width: 95%;
   max-width: 600px;
   margin: 50px auto;
   border-radius: 10px;
@@ -164,7 +157,7 @@ header {
 
 .mapa__container iframe {
   width: 100%;
-  height: 250px; /* Ajustado a altura para corresponder */
+  height: 250px;
   border: none;
   border-radius: 10px;
 }
@@ -177,7 +170,7 @@ header {
   margin: 20px 0;
   gap: 20px;
   padding: 25px;
-  flex-wrap: wrap; /* Adicionado para que os botões quebrem em telas menores */
+  flex-wrap: wrap;
 }
 
 .social__btn {
@@ -244,7 +237,7 @@ footer a {
   transition: color 0.3s ease;
 }
 
-footer p{
+footer p {
   font-size: x-large;
 }
 
@@ -254,7 +247,7 @@ footer img {
   height: auto;
 }
 
-/* Estilização da animação .fade-in-element */
+/* Estilização da animação fade-in-element */
 
 .fade-in-element {
   opacity: 0;
@@ -264,8 +257,6 @@ footer img {
 .fade-in-element.visible {
   opacity: 1;
 }
-
-
 
 /* Responsividade */
 @media (max-width: 600px) {
