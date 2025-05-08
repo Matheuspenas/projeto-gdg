@@ -21,6 +21,8 @@ body {
   mix-blend-mode: hard-light;
 }
 
+/* Estilização do Header da página */
+
 header {
   display: flex;
   align-items: center;
@@ -33,13 +35,6 @@ header {
 .evento-logo {
   height: 30px;
   margin-right: 10px;
-}
-
-.evento-nome {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
 }
 
 .logo-container {
@@ -58,13 +53,14 @@ header {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  margin: 0;
 }
 
 .evento-local {
   font-size: 14px;
   font-weight: bold;
   background: linear-gradient(to right, blue, yellow, red, green);
-  background-clip: text;  /* Adicionado para melhorar a compatibilidade com navegadores que não usam prefixo.*/
+  background-clip: text; /* Adicionado para melhorar a compatibilidade com navegadores que não usam prefixo.*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -250,6 +246,7 @@ h1 {
 }
 
 /* Estilização do footer da página */
+
 footer {
   text-align: center;
   padding: 15px;
@@ -268,7 +265,7 @@ footer img {
   width: 200px;
 }
 
-/* Estilização da animação .fade-in-element */
+/* Estilização da animação fade-in-element */
 
 .fade-in-element {
   opacity: 0;

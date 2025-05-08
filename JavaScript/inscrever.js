@@ -8,7 +8,8 @@ function closeMenu() {
   document.getElementById("sidebar").classList.remove("active");
 }
 
-// Corrigido: busca pelo botão com a classe em vez do ID
+// Função para fechar o menu ao clicar fora dele
+
 document.addEventListener("click", function (event) {
   const sidebar = document.getElementById("sidebar");
   const hamburger = document.querySelector(".menu__btn");
@@ -16,30 +17,35 @@ document.addEventListener("click", function (event) {
   const clickedOutsideSidebar = !sidebar.contains(event.target);
   const clickedOutsideHamburger = !hamburger.contains(event.target);
 
-  if (sidebar.classList.contains("active") && clickedOutsideSidebar && clickedOutsideHamburger) {
+  if (
+    sidebar.classList.contains("active") &&
+    clickedOutsideSidebar &&
+    clickedOutsideHamburger
+  ) {
     closeMenu();
   }
 });
 
-
-
 // Animação fade in da página
 
-document.addEventListener('DOMContentLoaded', () => {
-  const elements = document.querySelectorAll('.fade-in-element');
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll(".fade-in-element");
 
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target); // remove o observador depois que anima
-      }
-    });
-  }, {
-    threshold: 0.1 // ativa quando 10% do elemento aparece
-  });
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target); // remove o observador depois que anima
+        }
+      });
+    },
+    {
+      threshold: 0.1, // ativa quando 10% do elemento aparece
+    }
+  );
 
-  elements.forEach(el => observer.observe(el));
+  elements.forEach((el) => observer.observe(el));
 });
 
 // Script paraa armazenamento dos dados de inscrição
@@ -108,7 +114,6 @@ document
       });
   });
 
-
 // Script de contagem regressiva para o evento
 
 // Defina a data do evento
@@ -143,7 +148,7 @@ const countdown = setInterval(function () {
   }
 }, 1000);
 
-// Estilização do backgorund da tela
+// Estilização do background da tela
 
 // Seleciona o canvas e define o contexto 2D
 const canvas = document.getElementById("matrix");
@@ -193,7 +198,6 @@ function draw() {
     colorIndex = (colorIndex + 1) % colors.length;
   }
 }
-
 
 // Chama a função draw repetidamente
 setInterval(draw, 33);
