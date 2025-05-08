@@ -19,6 +19,8 @@ body {
   z-index: -1;
 }
 
+/* Estilização do Header da página */
+
 header {
   display: flex;
   align-items: center;
@@ -178,6 +180,8 @@ header {
   color: #666;
 }
 
+/* Estilização do botão Saiba Mais */
+
 .saiba-mais {
   font-family: Audiowide;
   background-color: #007bff;
@@ -194,7 +198,7 @@ header {
   background-color: #0056b3;
 }
 
-/* Estilos do modal */
+/* Estilização do modal */
 
 .modal {
   display: none;
@@ -292,7 +296,7 @@ footer img {
   height: auto;
 }
 
-/* Estilização da animação .fade-in-element */
+/* Estilização da animação fade-in-element */
 
 .fade-in-element {
   opacity: 0;

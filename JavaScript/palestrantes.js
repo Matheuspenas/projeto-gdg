@@ -8,7 +8,8 @@ function closeMenu() {
   document.getElementById("sidebar").classList.remove("active");
 }
 
-// Corrigido: busca pelo botão com a classe em vez do ID
+// Função para fechar o menu ao clicar fora dele
+
 document.addEventListener("click", function (event) {
   const sidebar = document.getElementById("sidebar");
   const hamburger = document.querySelector(".menu__btn");
@@ -71,7 +72,7 @@ window.onclick = function (event) {
   });
 };
 
-// Script de animação 3d do background
+// Script de animação 3d do background da página
 
 VANTA.NET({
   el: "#vanta-net",
