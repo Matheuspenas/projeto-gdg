@@ -5,10 +5,6 @@
   <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=blue&labelColor=0a2540&style=for-the-badge"/>
 </p>
 
-> Status do Projeto: :heavy_check_mark: :warning: em desenvolvimento
-
-
-
 ## ✨ Descrição do Projeto
 
 Este projeto tem como objetivo a divulgação de um evento tecnológico GDG por meio de uma página web.
@@ -287,8 +283,9 @@ Página acessada ao clicar no botão **“Inscreva-se agora!”** na página ini
 - Mantém o mesmo layout das outras páginas (header, menu hambúrguer, footer e animações com fade-in);
 - **Fundo animado estilo “Matrix”** com `canvas` simulando chuva de "0" e "1" em **cores alternadas** (azul, verde, laranja e vermelho), refletindo a identidade visual do evento.
 
-🎥 GIF da animação de fundo:
-(adicione aqui)
+🎥 **GIF da animação de fundo:**
+
+![Gif Animação de Fundo](./Gifs/Fundo-matrix2D.gif)
 
 ---
 
