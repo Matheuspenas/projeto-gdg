@@ -103,6 +103,7 @@ O objetivo é **facilitar o acesso às informações**, permitir **inscrições 
 
 ## 📚 Bibliotecas e Recursos Externos
 
+- [Google Fonts](https://fonts.google.com/) – Tipografia personalizada para melhorar a legibilidade e estética
 - [Font Awesome](https://fontawesome.com/) – Ícones vetoriais usados na interface
 - [Vanta.js](https://www.vantajs.com/) – Animação de fundo com efeito de rede (Net)
 
